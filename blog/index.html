@@ -55,7 +55,8 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 </script></head>
 <body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Homepage</a><nav class="site-nav">
+  <div class="wrapper">
+    <!----><a class="site-title" rel="author" href="/">Homepage</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -72,6 +73,12 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <link rel="stylesheet" href="/assets/css/paginate.css" />
+  
+<form action="/search.html" method="get">
+  <!-- <label for="search-box">Search</label> -->
+  <input type="text" id="search-box" name="query" size="30" style="font-size:20px;">
+  <input type="submit" value="search" style="font-size : 20px; height: 125px;" />
+</form>
 
 <!-- This loops through the paginated posts -->
 
