@@ -1,9 +1,3 @@
----
-title: "STAT3011 Fall2019 Week8 Lab"
-author: ""
-date: ""
-output: pdf_document
----
 ## Draw A Sample and Calculate Confidence Interval
 During today's lab, we will discuss more about the Confidence Interval through simulations. Simulation is an important way to learn statistics. First, let's look at how to generate random sample from a given population.
 ```{r echo = F}

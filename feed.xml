@@ -1,5 +1,3 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
     xmlns:atom="http://www.w3.org/2005/Atom"
@@ -7,29 +5,145 @@
     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 >
     <channel>
-        <title>{{ site.name | xml_escape }}</title>
-        <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>      
-        <sy:updatePeriod>{{ site.feed_update_period | default: "daily" | xml_escape }}</sy:updatePeriod>
-        <sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
-        <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-        <lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-        {% assign feed_items = site.feed_items | default: 10 %}
-        {% for post in site.posts limit:feed_items %}
+        <title></title>
+        <description>Nice to meat you.</description>      
+        <sy:updatePeriod>daily</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <link>http://keywgh.github.io</link>
+        <atom:link href="http://keywgh.github.io/feed.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 04 Apr 2020 21:07:55 +0000</lastBuildDate>
+        
+        
             <item>
-                <title>{{ post.title | xml_escape }}</title>
-                {% if post.author.name %}
-                    <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-                {% endif %}
-                {% if post.excerpt %}
-                    <description>{{ post.excerpt | xml_escape }}</description>
-                {% else %}
-                    <description>{{ post.content | xml_escape }}</description>
-                {% endif %}
-                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-                <link>{{ site.url }}{{ post.url }}</link>
-                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <title>面朝大海春暖花开</title>
+                
+                
+                    <description>&lt;p style=&quot;font-family: myFont; &quot;&gt;
+
+&lt;/p&gt;
+</description>
+                
+                <pubDate>Sat, 04 Apr 2020 21:07:55 +0000</pubDate>
+                <link>http://keywgh.github.io/story/2020/04/04/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/story/2020/04/04/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</guid>
             </item>
-        {% endfor %}
+        
+            <item>
+                <title>How to fit an elephant</title>
+                
+                
+                    <description>&lt;p&gt;Cited from &lt;a href=&quot;https://www.johndcook.com/blog/2011/06/21/how-to-fit-an-elephant/&quot;&gt;John D. Cook&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 20 Mar 2020 19:47:55 +0000</pubDate>
+                <link>http://keywgh.github.io/story/2020/03/20/How-to-fit-an-elephant.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/story/2020/03/20/How-to-fit-an-elephant.html</guid>
+            </item>
+        
+            <item>
+                <title>Umn Traveler Project 2019</title>
+                
+                
+                    <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+</description>
+                
+                <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+                <link>http://keywgh.github.io/2019/12/21/UMN-Traveler-Project-2019.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/2019/12/21/UMN-Traveler-Project-2019.html</guid>
+            </item>
+        
+            <item>
+                <title>Improved Observation-based Simulations of Temperature and Humidity Accounting for Projected Variability Changes from a Climate Model</title>
+                
+                
+                    <description>&lt;p&gt;Speaker:   Andrew Poppick, Assistant Professor of Statistics at Carleton College&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 21 Nov 2019 16:00:55 +0000</pubDate>
+                <link>http://keywgh.github.io/seminar/2019/11/21/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/11/21/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</guid>
+            </item>
+        
+            <item>
+                <title>Jekyll related topics</title>
+                
+                
+                    <description>&lt;p&gt;Some questions met when constructing website, along with solution.&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sat, 16 Nov 2019 21:17:55 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2019/11/16/Jekyll-related.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2019/11/16/Jekyll-related.html</guid>
+            </item>
+        
+            <item>
+                <title>Applying Principles of Statistical Design to Adaptive Probabilistic Differential Equation Solvers</title>
+                
+                
+                    <description>&lt;p&gt;Speaker:   Oksana Chkrebtii, Department of Statistics, The Ohio State University&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 07 Nov 2019 16:00:55 +0000</pubDate>
+                <link>http://keywgh.github.io/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</guid>
+            </item>
+        
+            <item>
+                <title>Effective communication</title>
+                
+                
+                    <description>&lt;p&gt;http://www.lisabmarshall.com&lt;/p&gt;
+</description>
+                
+                <pubDate>Fri, 01 Nov 2019 02:22:55 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</guid>
+            </item>
+        
+            <item>
+                <title>Log-Normal Hierarchical Modeling and Prior Influence for Astronomical Instrument Calibration</title>
+                
+                
+                    <description>&lt;p&gt;Speaker:  Yang Chen, (Department of Statistics &amp;amp; MIDAS, University of Michigan)&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 24 Oct 2019 16:00:55 +0000</pubDate>
+                <link>http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</guid>
+            </item>
+        
+            <item>
+                <title>Latex related topics</title>
+                
+                
+                    <description>&lt;p&gt;A learning note for latex.&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 11 Oct 2019 03:25:55 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2019/10/11/Latex-related.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2019/10/11/Latex-related.html</guid>
+            </item>
+        
+            <item>
+                <title>Interface of Statistics and Computing</title>
+                
+                
+                    <description>&lt;p&gt;Speaker: Yazhen Wang (University of Wisconsin-Madison)&lt;/p&gt;
+</description>
+                
+                <pubDate>Thu, 10 Oct 2019 16:00:55 +0000</pubDate>
+                <link>http://keywgh.github.io/seminar/2019/10/10/Interface-of-Statistics-and-Computing.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/10/10/Interface-of-Statistics-and-Computing.html</guid>
+            </item>
+        
     </channel>
 </rss>
