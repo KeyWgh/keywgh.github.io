@@ -5,6 +5,12 @@ pagination:
   enabled: true
 ---
 <link rel="stylesheet" href="/assets/css/paginate.css" />
+  
+<form action="/search.html" method="get">
+  <!-- <label for="search-box">Search</label> -->
+  <input type="text" id="search-box" name="query" size="30" style="font-size:20px;">
+  <input type="submit" value="search" style="font-size : 20px; height: 125px;" />
+</form>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
