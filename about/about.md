@@ -49,7 +49,7 @@ This is a personal website of Ganghua Wang, which is created by [Jekyll](https:/
 ### *2020*{: .h1s}
 
 
-![elephant](../assets/img/elephant.png){:  width="300px" style='float:left; margin-right: 5%'} 
+![elephant](../assets/img/elephant_ffmpeg.gif){:  width="300px" style='float:left; margin-right: 5%'} 
 
 <div id="right_col">
 <blockquote style='float:right'>

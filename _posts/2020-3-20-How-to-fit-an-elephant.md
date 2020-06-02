@@ -68,7 +68,7 @@ Cited from [John D. Cook](https://www.johndcook.com/blog/2011/06/21/how-to-fit-a
 
 Some personal comments:
 
-- Actually we use 10 parameters to fit the whole elephant, and we need 12 to make its trunk wiggle.
+- Actually we use 9 parameters(for they’re complex number) to fit the whole elephant, and 11 parameters to make its trunk wiggle.
 - The original paper requires access to read. [Here]((https://publications.mpi-cbg.de/getDocument.html?id=ff8080812daff75c012dc1b7bc10000c)) is an alternative version.
 - [Fourier](http://en.wikipedia.org/wiki/Joseph_Fourier) strikes again!
 - The original speak can be found [here](https://www.kgbreport.com/archives/2014/02/quotes-of-the-day-john-von-neumann.shtml).
