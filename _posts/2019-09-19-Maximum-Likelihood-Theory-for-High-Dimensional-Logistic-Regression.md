@@ -3,6 +3,7 @@ layout: post
 title:  "Modern Maximum-Likelihood Theory for High-Dimensional Logistic Regression"
 date:   2019-09-19 11:00:55 -0500
 categories: seminar
+hidden: true
 ---
 
 Speaker: Pragya Sur (Harvard University)

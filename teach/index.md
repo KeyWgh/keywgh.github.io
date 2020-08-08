@@ -8,9 +8,11 @@ permalink: /teach/
 
 | Course Number            | Course Title                     | Term/Year   |
 | ------------------------ | ------------------------------------ | ----------- |
+| [STAT4102](STAT4102_LAB) | Theory of Statistics II | Fall 2020 |
 | [STAT3021](STAT3021_LAB)| Introduction to Probability and Statistics | Spring 2020 |
 | [STAT3011](STAT3011_LAB) | Introduction to Statistical Analysis | Fall 2019   |
 
+You can find my personal thoughts and style about teaching here [Expectation for lab]({%post_url 2020-8-8-Expectation-for-lab%}).
 
 
 

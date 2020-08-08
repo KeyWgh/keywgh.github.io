@@ -66,5 +66,5 @@ A learning note for latex.
   
   - `minipage` Based Solution
   
-    After each mintage, use `\captionsetup{type=...}` to change float type.
+    For each minipage, use `\captionsetup{type=...}` to change float type.
 

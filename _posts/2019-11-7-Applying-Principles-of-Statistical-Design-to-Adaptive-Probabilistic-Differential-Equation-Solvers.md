@@ -3,7 +3,7 @@ layout: post
 title:  Applying Principles of Statistical Design to Adaptive Probabilistic Differential Equation Solvers
 date:   2019-11-7 11:00:55 -0500
 categories: seminar
-
+hidden: true
 
 ---
 

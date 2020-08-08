@@ -7,7 +7,7 @@ categories: tools
 
 ---
 
-Some questions met when constructing website, along with solution.
+Some problems I met when constructing website, along with my solutions.
 
 ## Images
 
@@ -46,7 +46,7 @@ For multiple figures, the best way is to create a customized div by html. Contro
 </div>
 ```
 
-For parallel figure and text, using kramdown syntax:
+For parallel figure and text, using kramdown syntax is enough:
 
 ```markdown
 ![](..){:  width="300px" style="float: left; margin-right:5%"} 
