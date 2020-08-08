@@ -11,8 +11,21 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://keywgh.github.io</link>
         <atom:link href="http://keywgh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 04 Apr 2020 21:07:55 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 08 Aug 2020 19:37:55 +0000</lastBuildDate>
         
+        
+            <item>
+                <title>“Expectation for lab&quot;</title>
+                
+                
+                    <description>&lt;p&gt;The motivation to write this article is that I was notified my Spring 2020 Student Rating of Teaching (SRT) results were available recently. After one year’s teaching for STAT 3011 and 3021, and talks with some professors, I think it’s beneficial to rethink what should I do to help and support my students. Also it’s a try to let you know my thoughts and style as a TA.&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sat, 08 Aug 2020 19:37:55 +0000</pubDate>
+                <link>http://keywgh.github.io/story/2020/08/08/Expectation-for-lab.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/story/2020/08/08/Expectation-for-lab.html</guid>
+            </item>
         
             <item>
                 <title>面朝大海春暖花开</title>
@@ -73,7 +86,7 @@
                 <title>Jekyll related topics</title>
                 
                 
-                    <description>&lt;p&gt;Some questions met when constructing website, along with solution.&lt;/p&gt;
+                    <description>&lt;p&gt;Some problems I met when constructing website, along with my solutions.&lt;/p&gt;
 
 </description>
                 
@@ -131,18 +144,6 @@
                 <pubDate>Fri, 11 Oct 2019 03:25:55 +0000</pubDate>
                 <link>http://keywgh.github.io/tools/2019/10/11/Latex-related.html</link>
                 <guid isPermaLink="true">http://keywgh.github.io/tools/2019/10/11/Latex-related.html</guid>
-            </item>
-        
-            <item>
-                <title>Interface of Statistics and Computing</title>
-                
-                
-                    <description>&lt;p&gt;Speaker: Yazhen Wang (University of Wisconsin-Madison)&lt;/p&gt;
-</description>
-                
-                <pubDate>Thu, 10 Oct 2019 16:00:55 +0000</pubDate>
-                <link>http://keywgh.github.io/seminar/2019/10/10/Interface-of-Statistics-and-Computing.html</link>
-                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/10/10/Interface-of-Statistics-and-Computing.html</guid>
             </item>
         
     </channel>
