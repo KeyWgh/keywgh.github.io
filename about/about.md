@@ -118,6 +118,6 @@ For the sake of completeness, I attach a pic of Weiming Lake below as well.
 </div>
 The first time I heard this story is from my instructor of *Applied Stochastic Processes*, [Prof. Dayue Chen](http://www.math.pku.edu.cn/teachers/dayue/indexE.htm).
 
-Another example I learnd in this course is that, "Life is a martingale." Though he meant that life is therefore ergodic and don't feel upset when you meet troubles, I still hope that life can be a submartingale.
+Another example I learned in this course is that "Life is a martingale." Though he meant that life is ergodic and don't feel upset when you meet troubles, I still hope that life can be a sub-martingale.
 
 [\\]: <> <div id="right_col"><blockquote > Life is a martingale.</blockquote></div>

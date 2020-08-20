@@ -35,9 +35,8 @@ permalink: /
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I'm Ganghua Wang, a second-year Ph.D. student in the School of Statistics, University of Minnesota. </p>
-      <p class="research">My research interests mainly lie in statistical learning methods and their applications, such as network analysis and data privacy. My study is motivated by solving practical problems. Recently, I'm focus on developing model selection and diagnostic methods and new data privacy framework. If you're interested in any of the areas and want to talk with me, feel free to email me or drop by my office. Here is my <a href='assets/resource/CV_GW.pdf'>CV</a>.</p> 
-
+      Hi, I am Ganghua Wang, a second-year Ph. D. student at the School of Statistics, University of Minnesota. </p>
+ <p class="research">My research interests mainly lie in statistical learning methods and their applications, such as network analysis and data privacy. My study is motivated by solving practical problems. Recently, I'm focusing on developing model selection and diagnostic methods and new data privacy framework. If you're interested in any areas above and want to talk with me, feel free to email me or drop by my office. Here is my <a href='assets/resource/CV_GW.pdf'>CV</a>.</p> 
 
    <p><strong>Education</strong></p>
    <p>Ph.D., School of Statistics, University of Minnesota, Aug. 2019 - present </p>

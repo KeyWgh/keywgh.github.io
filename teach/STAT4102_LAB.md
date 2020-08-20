@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: STAT4102
+title: STAT4102
 ---
 
 

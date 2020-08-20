@@ -1,7 +1,6 @@
 ---
 layout: default
-Title: STAT3021
-
+title: STAT3021
 
 
 ---

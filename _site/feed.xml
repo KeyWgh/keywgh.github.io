@@ -6,7 +6,7 @@
 >
     <channel>
         <title></title>
-        <description>Nice to meat you.</description>      
+        <description>Nice to ***meat*** you.</description>      
         <sy:updatePeriod>daily</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://localhost:4000</link>
@@ -15,10 +15,10 @@
         
         
             <item>
-                <title>“Expectation for lab&quot;</title>
+                <title>Expectation for lab</title>
                 
                 
-                    <description>&lt;p&gt;The motivation to write this article is that I was notified my Spring 2020 Student Rating of Teaching (SRT) results were available recently. After one year’s teaching for STAT 3011 and 3021, and talks with some professors, I think it’s beneficial to rethink what should I do to help and support my students. Also it’s a try to let you know my thoughts and style as a TA.&lt;/p&gt;
+                    <description>&lt;p&gt;The motivation to write this article is that I have been notified my Spring 2020 Student Rating of Teaching (SRT) results were available recently. After one year’s teaching for STAT 3011 and 3021, and talks with some professors, I think it’s beneficial to rethink that what should I do to help and support my students. Also, it’s a try to let you know my thoughts and style as a TA.&lt;/p&gt;
 
 </description>
                 
