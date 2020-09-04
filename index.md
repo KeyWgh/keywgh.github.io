@@ -25,7 +25,7 @@ permalink: /
     <img  class="img-circle avatar" alt="Ganghua Wang" src="assets/img/profile.jpg" width="200"> 
     <p class='info'><br /> 
     <big><i><b>Ganghua Wang</b></i></big><br /> 
-    <i>Probationary PhD Candidate</i><br /> 
+    <i>Ph. D. Candidate</i><br /> 
     <a href="https://cla.umn.edu/statistics" target="_blank"><i>School of Statistics</i></a><br /> 
       <a href="https://twin-cities.umn.edu" target="_blank"><i>University of Minnesota</i></a><br />
     350 Ford Hall<br />     
