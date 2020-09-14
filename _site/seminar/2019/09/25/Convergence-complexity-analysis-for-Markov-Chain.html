@@ -14,18 +14,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>STAT4102 | Ganghua Wang</title>
+<title>Convergence complexity analysis for Markov Chain | Ganghua Wang</title>
 <meta name="generator" content="Jekyll v3.8.6" />
-<meta property="og:title" content="STAT4102" />
+<meta property="og:title" content="Convergence complexity analysis for Markov Chain" />
 <meta name="author" content="Ganghua Wang" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Nice to meat you." />
-<meta property="og:description" content="Nice to meat you." />
-<link rel="canonical" href="http://localhost:4000/teach/STAT4102_LAB.html" />
-<meta property="og:url" content="http://localhost:4000/teach/STAT4102_LAB.html" />
+<meta name="description" content="Speaker: Qian Qin (University of Minnesota - TC)" />
+<meta property="og:description" content="Speaker: Qian Qin (University of Minnesota - TC)" />
+<link rel="canonical" href="http://localhost:4000/seminar/2019/09/25/Convergence-complexity-analysis-for-Markov-Chain.html" />
+<meta property="og:url" content="http://localhost:4000/seminar/2019/09/25/Convergence-complexity-analysis-for-Markov-Chain.html" />
 <meta property="og:site_name" content="Ganghua Wang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-25T03:30:55+08:00" />
 <script type="application/ld+json">
-{"@type":"WebPage","author":{"@type":"Person","name":"Ganghua Wang"},"url":"http://localhost:4000/teach/STAT4102_LAB.html","headline":"STAT4102","description":"Nice to meat you.","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/seminar/2019/09/25/Convergence-complexity-analysis-for-Markov-Chain.html"},"@type":"BlogPosting","author":{"@type":"Person","name":"Ganghua Wang"},"url":"http://localhost:4000/seminar/2019/09/25/Convergence-complexity-analysis-for-Markov-Chain.html","dateModified":"2019-09-25T03:30:55+08:00","datePublished":"2019-09-25T03:30:55+08:00","headline":"Convergence complexity analysis for Markov Chain","description":"Speaker: Qian Qin (University of Minnesota - TC)","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
@@ -72,56 +74,46 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h2 id="lab-information">Lab Information</h2>
+           <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Convergence complexity analysis for Markov Chain</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-09-25T03:30:55+08:00" itemprop="datePublished">Sep 25, 2019
+      </time></p>
+  </header>
 
-<table>
-  <thead>
-    <tr>
-      <th>Course Number</th>
-      <th>STAT 4102</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lab Number</td>
-      <td>STAT 4102-002,003</td>
-    </tr>
-    <tr>
-      <td>TA</td>
-      <td>Ganghua Wang</td>
-    </tr>
-    <tr>
-      <td>Email</td>
-      <td>wang9019@umn.edu</td>
-    </tr>
-    <tr>
-      <td>Office Hours</td>
-      <td>Tuesday 8am-10am</td>
-    </tr>
-    <tr>
-      <td>Location</td>
-      <td>Zoom meeting</td>
-    </tr>
-  </tbody>
-</table>
 
-<p>Office hours will be held using Zoom, <a href="https://umn.zoom.us/j/92769632265?pwd=eHQ1UlZ6TEdxbkl5R2Fuamp2Z3RUdz09">click here to open the link</a> or you can find it on Canvas. Lab videos will be posted on Canvas each Tuesday or Wednesday, and you can find any materials used in lab in the Schedule section below. Attendance for lab and office hours is NOT required. <!-- If you would like to talk with me, please enter during the first 15 minutes, or notify me that you intend to begin somewhat later.  --></p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Speaker: Qian Qin (University of Minnesota - TC)</p>
 
-<p>If you have any questions, please feel free to email me. My time zone is China Standard Time (GMT+8), while Minneapolis is Central Standard Time (GMT-5). I will reply ASAP, but it may not be immediate due to the time difference.</p>
+<h3 id="probit-regression">Probit regression</h3>
 
-<h2 id="schedule">Schedule</h2>
+<p>$y_i \sim Bernoulli(\Phi(x_i^T\beta)) \ \beta \sim N_p(0, Q^{-1})$</p>
 
-<ul>
-  <li>
-    <p>Week 1, Sept. 8, Cancelled</p>
-  </li>
-  <li>
-    <p>Week 2, Spet. 15, Review on common distributions and expectations</p>
+<p>, where $\Phi$ is cdf of normal dist, so we can calculate posterior density.</p>
 
-    <p><a href="courses/STAT4102/week2.pdf">LabHandout</a></p>
-  </li>
-</ul>
+<p>We can design a MCMC to converge to this posterior dist.  (logit is much harder)</p>
 
+<p>Question, what’s the speed of convergence?</p>
+
+<p>Dynamic of MC can be characterized by transition kernal $P(X_
+{m+1} \in A|X_m=x) = \int_A K(x, dx’)$</p>
+
+<p>We want $d_{TC}(K^m(x_0, \cdot), \pi) \leq C(x_0)\rho^m$, we call $\rho$ the rate of convergence. $\rho$ also controls the correlation between two consequencial samples.</p>
+
+<p>So what’s the behavior of $\rho$ when $n, p \to \infty$ ?</p>
+
+<p>Maybe start from finding an upper bound. <strong>Challenge: obtain a sharp bound.</strong></p>
+
+<p>$d_{\psi}(\mu, \nu) = inf_{X\sim\mu,X’\sim\nu}\mathbb{E}\psi(X, X’)$  Coupling.</p>
+
+<p>Then $d_{\psi}(K^m(x_0, \cdot), K^m(x’<em>0, \codt)) \leq \mathbb{E}\psi(X_n, X’_n)$, if we have one step constrain $\mathbb{E}(\psi(X</em>{m+1}, X’_M{m+1} \vert X_m=x, X’_m=x’))\leq \rho\psi(x, x’)$ then by induction we have latter one less than $\psi(x_0, x’_0)\rho^m$</p>
+
+<p>We want this two Markov Chain to be dependent to minimize $\rho$. $\psi$ have to be well designed as well.</p>
+
+
+  </div><a class="u-url" href="/seminar/2019/09/25/Convergence-complexity-analysis-for-Markov-Chain.html" hidden></a>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
