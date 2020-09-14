@@ -27,4 +27,5 @@ If you have any questions, please feel free to email me. My time zone is China S
 - Week 2, Spet. 15, Review on common distributions and expectations
 
   [LabHandout](courses/STAT4102/week2.pdf)
-
+  
+  Errata: The video had a mistake when introducing the F distribution: both denominator and numerator should be scaled by the degree of freedom. It has been corrected in the handout. I apologize for the confusion.
