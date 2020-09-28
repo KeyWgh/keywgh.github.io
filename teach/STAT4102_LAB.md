@@ -22,15 +22,19 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 ## Schedule
 
-- Week 1, Sept. 8, Cancelled
+- Week 1, Sept. 8th, Cancelled
 
-- Week 2, Sept. 15, Review on common distributions and expectations
+- Week 2, Sept. 15th, Review on common distributions and expectations
 
   [LabHandout](courses/STAT4102/week2.pdf)
   
   Errata: The video had a mistake when introducing the F distribution: both denominator and numerator should be scaled by the degree of freedom. It has been corrected in the handout. I apologize for the confusion.
   
-- Week 3, Sept. 22, Exercise for Chap. 7. 
+- Week 3, Sept. 22nd, Exercise for Chap. 7. 
 
   [LabHandout](courses/STAT4102/week3.pdf)
+
+- Week 4, Sept. 28th, Point estimation and confidence interval
+  
+  [LabHandout](courses/STAT4102/week4.pdf)
 
