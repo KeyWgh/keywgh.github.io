@@ -18,6 +18,9 @@ Office hours will be held using Zoom, [click here to open the link](https://umn.
 
 If you have any questions, please feel free to email me. My time zone is China Standard Time (GMT+8), while Minneapolis is Central Standard Time (GMT-5). I will reply ASAP, but it may not be immediate due to the time difference.
 
+## Homework Solution
+
+[HW1Sol](courses/STAT4102/hw1sol.pdf)
 
 
 ## Schedule
@@ -38,3 +41,4 @@ If you have any questions, please feel free to email me. My time zone is China S
   
   [LabHandout](courses/STAT4102/week4.pdf)
 
+- Week 5, Oct. 6th, TBD
