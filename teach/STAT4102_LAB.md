@@ -39,6 +39,7 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 - Week 4, Sept. 28th, Point estimation and confidence interval
   
-  [LabHandout](courses/STAT4102/week4.pdf)
+- Week 5, Oct. 6th, hw1 and confidence interval
 
-- Week 5, Oct. 6th, TBD
+  [LabHandout](courses/STAT4102/week5.pdf)
+
