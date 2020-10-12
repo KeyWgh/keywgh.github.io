@@ -43,3 +43,8 @@ If you have any questions, please feel free to email me. My time zone is China S
 
   [LabHandout](courses/STAT4102/week5.pdf)
 
+- Week 6, Oct. 13th, Review of Chap. 7,8.
+
+  [LabHandout](courses/STAT4102/week6.pdf)
+  
+  Good luck to the midterm 1.
