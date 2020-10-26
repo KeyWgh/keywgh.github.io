@@ -20,12 +20,12 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 ## Homework Solution
 
-[HW1Sol](courses/STAT4102/hw1sol.pdf)
+[HW1Sol](courses/STAT4102/hw1sol.pdf), [HW2Sol](courses/STAT4102/hw2sol.pdf), [Mid1Sol](courses/STAT4102/mid1sol.pdf)
 
 
 ## Schedule
 
-- Week 1, Sept. 8th, Cancelled
+- Week 1, Sept. 8th, Canceled
 
 - Week 2, Sept. 15th, Review on common distributions and expectations
 
@@ -48,3 +48,11 @@ If you have any questions, please feel free to email me. My time zone is China S
   [LabHandout](courses/STAT4102/week6.pdf)
   
   Good luck to the midterm 1.
+  
+- Week 7, Oct. 20th, Canceled.
+
+- Week 8, Oct. 27th, Midterm 1 and hw2 problems.
+
+  Be careful when you calculate the mean, variance, and derivative. Besides, clearly state the df of distribution.
+
+  Know how to derive the pdf of the order statistics.
