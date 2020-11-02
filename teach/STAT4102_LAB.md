@@ -56,3 +56,9 @@ If you have any questions, please feel free to email me. My time zone is China S
   Be careful when you calculate the mean, variance, and derivative. Besides, clearly state the df of distribution.
 
   Know how to derive the pdf of the order statistics.
+  
+- Week 9, Nov. 3rd, LLNs and Point estimation.
+
+  [LabHandout](courses/STAT4102/week9.pdf)
+  
+  
