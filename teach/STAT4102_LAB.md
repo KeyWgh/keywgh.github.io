@@ -61,4 +61,13 @@ If you have any questions, please feel free to email me. My time zone is China S
 
   [LabHandout](courses/STAT4102/week9.pdf)
   
-  
+- Week 10, Nov. 10th, Point estimation: MoM and MLE
+
+  [LabHandout](courses/STAT4102/week10.pdf)
+
+- Week 11, Nov. 17th, Hypothesis testing
+
+	[LabHandout](courses/STAT4102/week11.pdf)
+	
+	Good luck to your mid2.
+
