@@ -20,7 +20,7 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 ## Homework Solution
 
-[HW1Sol](courses/STAT4102/hw1sol.pdf), [HW2Sol](courses/STAT4102/hw2sol.pdf), [Mid1Sol](courses/STAT4102/mid1sol.pdf)
+[HW1Sol](courses/STAT4102/hw1sol.pdf), [HW2Sol](courses/STAT4102/hw2sol.pdf), [HW3Sol](courses/STAT4102/hw3sol.pdf), [Mid1Sol](courses/STAT4102/mid1sol.pdf), [Mid2Sol](courses/STAT4102/mid1sol.pdf)
 
 
 ## Schedule
@@ -70,4 +70,10 @@ If you have any questions, please feel free to email me. My time zone is China S
 	[LabHandout](courses/STAT4102/week11.pdf)
 	
 	Good luck to your mid2.
+
+- Week 12, Nov. 24th, Canceled
+
+- Week 13, Dec. 1st, hw3&mid2
+  
+  [LabHandout](courses/STAT4102/week13.pdf)
 
