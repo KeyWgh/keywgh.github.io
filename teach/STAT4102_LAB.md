@@ -20,7 +20,7 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 ## Homework Solution
 
-[HW1Sol](courses/STAT4102/hw1sol.pdf), [HW2Sol](courses/STAT4102/hw2sol.pdf), [HW3Sol](courses/STAT4102/hw3sol.pdf), [Mid1Sol](courses/STAT4102/mid1sol.pdf), [Mid2Sol](courses/STAT4102/mid1sol.pdf)
+[HW1Sol](courses/STAT4102/hw1sol.pdf), [HW2Sol](courses/STAT4102/hw2sol.pdf), [HW3Sol](courses/STAT4102/hw3sol.pdf), [HW4Sol](courses/STAT4102/hw4sol.pdf), [Mid1Sol](courses/STAT4102/mid1sol.pdf), [Mid2Sol](courses/STAT4102/mid1sol.pdf)
 
 
 ## Schedule
@@ -47,16 +47,10 @@ If you have any questions, please feel free to email me. My time zone is China S
 
   [LabHandout](courses/STAT4102/week6.pdf)
   
-  Good luck to the midterm 1.
-  
 - Week 7, Oct. 20th, Canceled.
 
 - Week 8, Oct. 27th, Midterm 1 and hw2 problems.
 
-  Be careful when you calculate the mean, variance, and derivative. Besides, clearly state the df of distribution.
-
-  Know how to derive the pdf of the order statistics.
-  
 - Week 9, Nov. 3rd, LLNs and Point estimation.
 
   [LabHandout](courses/STAT4102/week9.pdf)
@@ -69,11 +63,15 @@ If you have any questions, please feel free to email me. My time zone is China S
 
 	[LabHandout](courses/STAT4102/week11.pdf)
 	
-	Good luck to your mid2.
-
 - Week 12, Nov. 24th, Canceled
 
 - Week 13, Dec. 1st, hw3&mid2
   
   [LabHandout](courses/STAT4102/week13.pdf)
+
+- Week 14, Dec. 8th, hw4
+
+  This is the last lab this semester. I discussed the hw4 and showed an example where MLE is not consistent. 
+
+  Good luck to your final.
 
