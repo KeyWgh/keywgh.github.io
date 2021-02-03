@@ -11,8 +11,21 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 09 Aug 2020 03:37:55 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 03 Feb 2021 12:36:55 -0600</lastBuildDate>
         
+        
+            <item>
+                <title>How to choose an open source license</title>
+                
+                
+                    <description>&lt;p&gt;In short, from permeissive to restrictive are MIT, BSD3, Apache, and GPL. MIT is good for personal projects while GPL is better for serious company projects.&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Wed, 03 Feb 2021 12:36:55 -0600</pubDate>
+                <link>http://localhost:4000/tools/2021/02/03/How-to-choose-an-open-source-license.html</link>
+                <guid isPermaLink="true">http://localhost:4000/tools/2021/02/03/How-to-choose-an-open-source-license.html</guid>
+            </item>
         
             <item>
                 <title>Expectation for lab</title>
@@ -22,9 +35,9 @@
 
 </description>
                 
-                <pubDate>Sun, 09 Aug 2020 03:37:55 +0800</pubDate>
-                <link>http://localhost:4000/story/2020/08/09/Expectation-for-lab.html</link>
-                <guid isPermaLink="true">http://localhost:4000/story/2020/08/09/Expectation-for-lab.html</guid>
+                <pubDate>Sat, 08 Aug 2020 14:37:55 -0500</pubDate>
+                <link>http://localhost:4000/story/2020/08/08/Expectation-for-lab.html</link>
+                <guid isPermaLink="true">http://localhost:4000/story/2020/08/08/Expectation-for-lab.html</guid>
             </item>
         
             <item>
@@ -36,9 +49,9 @@
 &lt;/p&gt;
 </description>
                 
-                <pubDate>Sun, 05 Apr 2020 05:07:55 +0800</pubDate>
-                <link>http://localhost:4000/story/2020/04/05/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</link>
-                <guid isPermaLink="true">http://localhost:4000/story/2020/04/05/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</guid>
+                <pubDate>Sat, 04 Apr 2020 16:07:55 -0500</pubDate>
+                <link>http://localhost:4000/story/2020/04/04/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</link>
+                <guid isPermaLink="true">http://localhost:4000/story/2020/04/04/%E9%9D%A2%E6%9C%9D%E5%A4%A7%E6%B5%B7%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80.html</guid>
             </item>
         
             <item>
@@ -49,9 +62,9 @@
 
 </description>
                 
-                <pubDate>Sat, 21 Mar 2020 03:47:55 +0800</pubDate>
-                <link>http://localhost:4000/story/2020/03/21/How-to-fit-an-elephant.html</link>
-                <guid isPermaLink="true">http://localhost:4000/story/2020/03/21/How-to-fit-an-elephant.html</guid>
+                <pubDate>Fri, 20 Mar 2020 14:47:55 -0500</pubDate>
+                <link>http://localhost:4000/story/2020/03/20/How-to-fit-an-elephant.html</link>
+                <guid isPermaLink="true">http://localhost:4000/story/2020/03/20/How-to-fit-an-elephant.html</guid>
             </item>
         
             <item>
@@ -64,7 +77,7 @@
 
 </description>
                 
-                <pubDate>Sat, 21 Dec 2019 00:00:00 +0800</pubDate>
+                <pubDate>Sat, 21 Dec 2019 00:00:00 -0600</pubDate>
                 <link>http://localhost:4000/2019/12/21/UMN-Traveler-Project-2019.html</link>
                 <guid isPermaLink="true">http://localhost:4000/2019/12/21/UMN-Traveler-Project-2019.html</guid>
             </item>
@@ -77,9 +90,9 @@
 
 </description>
                 
-                <pubDate>Fri, 22 Nov 2019 00:00:55 +0800</pubDate>
-                <link>http://localhost:4000/seminar/2019/11/22/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</link>
-                <guid isPermaLink="true">http://localhost:4000/seminar/2019/11/22/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</guid>
+                <pubDate>Thu, 21 Nov 2019 10:00:55 -0600</pubDate>
+                <link>http://localhost:4000/seminar/2019/11/21/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</link>
+                <guid isPermaLink="true">http://localhost:4000/seminar/2019/11/21/Improved-Observation-based-Simulations-of-Temperature-and-Humidity-Accounting-for-Projected-Variability-Changes-from-a-Climate-Model.html</guid>
             </item>
         
             <item>
@@ -90,9 +103,9 @@
 
 </description>
                 
-                <pubDate>Sun, 17 Nov 2019 05:17:55 +0800</pubDate>
-                <link>http://localhost:4000/tools/2019/11/17/Jekyll-related.html</link>
-                <guid isPermaLink="true">http://localhost:4000/tools/2019/11/17/Jekyll-related.html</guid>
+                <pubDate>Sat, 16 Nov 2019 15:17:55 -0600</pubDate>
+                <link>http://localhost:4000/tools/2019/11/16/Jekyll-related.html</link>
+                <guid isPermaLink="true">http://localhost:4000/tools/2019/11/16/Jekyll-related.html</guid>
             </item>
         
             <item>
@@ -103,9 +116,9 @@
 
 </description>
                 
-                <pubDate>Fri, 08 Nov 2019 00:00:55 +0800</pubDate>
-                <link>http://localhost:4000/seminar/2019/11/08/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</link>
-                <guid isPermaLink="true">http://localhost:4000/seminar/2019/11/08/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</guid>
+                <pubDate>Thu, 07 Nov 2019 10:00:55 -0600</pubDate>
+                <link>http://localhost:4000/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</link>
+                <guid isPermaLink="true">http://localhost:4000/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</guid>
             </item>
         
             <item>
@@ -115,9 +128,9 @@
                     <description>&lt;p&gt;http://www.lisabmarshall.com&lt;/p&gt;
 </description>
                 
-                <pubDate>Fri, 01 Nov 2019 10:22:55 +0800</pubDate>
-                <link>http://localhost:4000/tools/2019/11/01/Effective-Communication.html</link>
-                <guid isPermaLink="true">http://localhost:4000/tools/2019/11/01/Effective-Communication.html</guid>
+                <pubDate>Thu, 31 Oct 2019 21:22:55 -0500</pubDate>
+                <link>http://localhost:4000/tools/2019/10/31/Effective-Communication.html</link>
+                <guid isPermaLink="true">http://localhost:4000/tools/2019/10/31/Effective-Communication.html</guid>
             </item>
         
             <item>
@@ -128,22 +141,9 @@
 
 </description>
                 
-                <pubDate>Fri, 25 Oct 2019 00:00:55 +0800</pubDate>
-                <link>http://localhost:4000/seminar/2019/10/25/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</link>
-                <guid isPermaLink="true">http://localhost:4000/seminar/2019/10/25/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</guid>
-            </item>
-        
-            <item>
-                <title>Latex related topics</title>
-                
-                
-                    <description>&lt;p&gt;A learning note for latex.&lt;/p&gt;
-
-</description>
-                
-                <pubDate>Fri, 11 Oct 2019 11:25:55 +0800</pubDate>
-                <link>http://localhost:4000/tools/2019/10/11/Latex-related.html</link>
-                <guid isPermaLink="true">http://localhost:4000/tools/2019/10/11/Latex-related.html</guid>
+                <pubDate>Thu, 24 Oct 2019 11:00:55 -0500</pubDate>
+                <link>http://localhost:4000/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</link>
+                <guid isPermaLink="true">http://localhost:4000/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</guid>
             </item>
         
     </channel>

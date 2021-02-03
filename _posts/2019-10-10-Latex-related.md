@@ -7,7 +7,9 @@ categories: tools
 
 ---
 
-A learning note for latex.
+A learning note for latex. 
+
+Some ready-to-use templates for general purposes are provided in my [Github repo](https://github.com/KeyWgh/latex_template/tree/master).
 
 ## For symbols
 

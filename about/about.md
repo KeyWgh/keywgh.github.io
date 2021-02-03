@@ -42,7 +42,7 @@ text-decoration: underline;
 [comment]: <> FF0234(red) FF7902(orange) 1F70CB(blue)
 
 
-This is a personal website of Ganghua Wang, which is created by [Jekyll](https://jekyllrb.com/) and under construction. 
+This is a personal website of Ganghua Wang, which is created by [Jekyll](https://jekyllrb.com/).
 
 ## Gallery
 
