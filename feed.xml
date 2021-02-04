@@ -11,8 +11,21 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://keywgh.github.io</link>
         <atom:link href="http://keywgh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 08 Aug 2020 19:37:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 03 Feb 2021 18:36:55 +0000</lastBuildDate>
         
+        
+            <item>
+                <title>How to choose an open source license</title>
+                
+                
+                    <description>&lt;p&gt;In short, from permeissive to restrictive are MIT, BSD3, Apache, and GPL. MIT is good for personal projects while GPL is better for serious company projects.&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Wed, 03 Feb 2021 18:36:55 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2021/02/03/How-to-choose-an-open-source-license.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2021/02/03/How-to-choose-an-open-source-license.html</guid>
+            </item>
         
             <item>
                 <title>Expectation for lab</title>
@@ -131,19 +144,6 @@
                 <pubDate>Thu, 24 Oct 2019 16:00:55 +0000</pubDate>
                 <link>http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</link>
                 <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</guid>
-            </item>
-        
-            <item>
-                <title>Latex related topics</title>
-                
-                
-                    <description>&lt;p&gt;A learning note for latex.&lt;/p&gt;
-
-</description>
-                
-                <pubDate>Fri, 11 Oct 2019 03:25:55 +0000</pubDate>
-                <link>http://keywgh.github.io/tools/2019/10/11/Latex-related.html</link>
-                <guid isPermaLink="true">http://keywgh.github.io/tools/2019/10/11/Latex-related.html</guid>
             </item>
         
     </channel>
