@@ -11,8 +11,21 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://keywgh.github.io</link>
         <atom:link href="http://keywgh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 03 Feb 2021 18:36:55 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 01:44:37 +0000</lastBuildDate>
         
+        
+            <item>
+                <title>How to publish a Python package</title>
+                
+                
+                    <description>&lt;p&gt;This blog records the way how I build and publish my first Python package, &lt;code class=&quot;highlighter-rouge&quot;&gt;SubsetPrivacy&lt;/code&gt; (not released yet).&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sat, 06 Mar 2021 01:44:37 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html</guid>
+            </item>
         
             <item>
                 <title>How to choose an open source license</title>
@@ -131,19 +144,6 @@
                 <pubDate>Fri, 01 Nov 2019 02:22:55 +0000</pubDate>
                 <link>http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</link>
                 <guid isPermaLink="true">http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</guid>
-            </item>
-        
-            <item>
-                <title>Log-Normal Hierarchical Modeling and Prior Influence for Astronomical Instrument Calibration</title>
-                
-                
-                    <description>&lt;p&gt;Speaker:  Yang Chen, (Department of Statistics &amp;amp; MIDAS, University of Michigan)&lt;/p&gt;
-
-</description>
-                
-                <pubDate>Thu, 24 Oct 2019 16:00:55 +0000</pubDate>
-                <link>http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</link>
-                <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/10/24/Log-Normal-Hierarchical-Modeling-and-Prior-Influence-for-Astronomical-Instrument-Calibration.html</guid>
             </item>
         
     </channel>
