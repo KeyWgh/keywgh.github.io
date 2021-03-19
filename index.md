@@ -44,11 +44,11 @@ permalink: /
 </div>
 </div>
 
-
 <hr style="clear:both;">
-  <p><br/>
-  <q style='float:right'> All models are wrong; some models are useful. <i>George Box</i></q>
+  <p style='float:right'><br/>
+  <q > All models are wrong; some models are useful. </q> --<i>George Box</i>
   </p>
+
 
 
 
