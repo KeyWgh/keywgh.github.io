@@ -11,8 +11,20 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <link>http://keywgh.github.io</link>
         <atom:link href="http://keywgh.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 06 Mar 2021 01:44:37 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 Mar 2021 23:04:17 +0000</lastBuildDate>
         
+        
+            <item>
+                <title>Build my Ubuntu 20.04 (focal)</title>
+                
+                
+                    <description>&lt;p&gt;This blog records how I install and configure my Ubuntu 20.04 &lt;img src=&quot;https://assets.ubuntu.com/v1/1be42010-cof_orange_hex.jpg&quot; alt=&quot;&quot; width=&quot;20px&quot; /&gt;. All the codes should be run in a terminal.&lt;/p&gt;
+</description>
+                
+                <pubDate>Thu, 18 Mar 2021 23:04:17 +0000</pubDate>
+                <link>http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html</link>
+                <guid isPermaLink="true">http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html</guid>
+            </item>
         
             <item>
                 <title>How to publish a Python package</title>
@@ -122,18 +134,6 @@
                 <pubDate>Thu, 07 Nov 2019 16:00:55 +0000</pubDate>
                 <link>http://keywgh.github.io/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</link>
                 <guid isPermaLink="true">http://keywgh.github.io/seminar/2019/11/07/Applying-Principles-of-Statistical-Design-to-Adaptive-Probabilistic-Differential-Equation-Solvers.html</guid>
-            </item>
-        
-            <item>
-                <title>Effective communication</title>
-                
-                
-                    <description>&lt;p&gt;http://www.lisabmarshall.com&lt;/p&gt;
-</description>
-                
-                <pubDate>Fri, 01 Nov 2019 02:22:55 +0000</pubDate>
-                <link>http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</link>
-                <guid isPermaLink="true">http://keywgh.github.io/tools/2019/11/01/Effective-Communication.html</guid>
             </item>
         
     </channel>

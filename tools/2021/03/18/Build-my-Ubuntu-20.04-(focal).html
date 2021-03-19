@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en"><!-- MathJax Support -->
+   <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Build my Ubuntu 20.04 (focal) | Ganghua Wang</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Build my Ubuntu 20.04 (focal)" />
+<meta name="author" content="Ganghua Wang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This blog records how I install and configure my Ubuntu 20.04 . All the codes should be run in a terminal." />
+<meta property="og:description" content="This blog records how I install and configure my Ubuntu 20.04 . All the codes should be run in a terminal." />
+<link rel="canonical" href="http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html" />
+<meta property="og:url" content="http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html" />
+<meta property="og:site_name" content="Ganghua Wang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-18T23:04:17+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Build my Ubuntu 20.04 (focal)" />
+<script type="application/ld+json">
+{"description":"This blog records how I install and configure my Ubuntu 20.04 . All the codes should be run in a terminal.","headline":"Build my Ubuntu 20.04 (focal)","dateModified":"2021-03-18T23:04:17+00:00","datePublished":"2021-03-18T23:04:17+00:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html"},"url":"http://keywgh.github.io/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html","author":{"@type":"Person","name":"Ganghua Wang"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" /><link type="application/atom+xml" rel="alternate" href="http://keywgh.github.io/feed.xml" title="Ganghua Wang" /><!-- <script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-141229469-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+ -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-141229469-1', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <!----><!-- <a class="site-title" rel="author" href="/">Ganghua Wang</a> -->
+    <a class="site-title" rel="author" href="/">Homepage</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/teach/">Teaching</a><a class="page-link" href="/blog/">Blog</a>
+        </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+           <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Build my Ubuntu 20.04 (focal)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-03-18T23:04:17+00:00" itemprop="datePublished">Mar 18, 2021
+      </time></p>
+  </header>
+
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This blog records how I install and configure my Ubuntu 20.04 <img src="https://assets.ubuntu.com/v1/1be42010-cof_orange_hex.jpg" alt="" width="20px" />. All the codes should be run in a terminal.</p>
+
+<p><strong>Contents</strong></p>
+
+<ul id="markdown-toc">
+  <li><a href="#hardware" id="markdown-toc-hardware">Hardware</a></li>
+  <li><a href="#dual-boot" id="markdown-toc-dual-boot">Dual boot</a></li>
+  <li><a href="#softwarespackages" id="markdown-toc-softwarespackages">Softwares/packages</a></li>
+  <li><a href="#configure-gnome" id="markdown-toc-configure-gnome">Configure GNOME</a></li>
+  <li><a href="#configure-my-python-environment" id="markdown-toc-configure-my-python-environment">Configure my Python environment</a>    <ul>
+      <li><a href="#intro" id="markdown-toc-intro">Intro</a></li>
+      <li><a href="#install-python" id="markdown-toc-install-python">Install Python</a></li>
+      <li><a href="#packages" id="markdown-toc-packages">Packages</a></li>
+    </ul>
+  </li>
+  <li><a href="#others" id="markdown-toc-others">Others</a></li>
+</ul>
+<h1 id="hardware">Hardware</h1>
+
+<ul>
+  <li>Model: AlienWare R11</li>
+  <li>CPU: Intel Core i7 10700kF</li>
+  <li>GPU: NVIDIA 3060Ti</li>
+  <li>Pre-installed system: Windows 10</li>
+</ul>
+
+<h1 id="dual-boot">Dual boot</h1>
+
+<p>There are already lots of blogs on how to install Ubuntu and dual boot with Windows 10. For example,</p>
+
+<p>https://www.linuxtechi.com/dual-boot-ubuntu-20-04-lts-along-with-windows-10/</p>
+
+<p>One more thing on AlienWare, we have to change the SATA operation from RAID to AHCI. Then reboot the Windows with safe mode. The steps are</p>
+
+<ol>
+  <li>
+    <p>Run <code class="language-plaintext highlighter-rouge">cmd</code> as administrator (not PowerShell, you would have to escape <code class="language-plaintext highlighter-rouge">{...}</code>)</p>
+  </li>
+  <li>
+    <p>Copy-paste this command, which will start Windows in Safe Mode the next time you reboot:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bcdedit /set <span class="o">{</span>current<span class="o">}</span> safeboot minimal
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Restart the computer and enter UEFI/BIOS setup.</p>
+  </li>
+  <li>
+    <p>Change the SATA operation mode from RAID to AHCI.</p>
+  </li>
+  <li>
+    <p>Save changes and exit Setup and Windows will automatically boot to Safe Mode.</p>
+  </li>
+  <li>
+    <p>Launch <code class="language-plaintext highlighter-rouge">cmd</code> again, as in step #1.</p>
+  </li>
+  <li>
+    <p>Copy-paste this command, which will start Windows in Normal Mode the next time you reboot:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bcdedit /deletevalue <span class="o">{</span>current<span class="o">}</span> safeboot
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Reboot and Windows will automatically start with AHCI drivers enabled.</p>
+  </li>
+</ol>
+
+<h1 id="softwarespackages">Softwares/packages</h1>
+
+<p>Use the following command if installation failed due to dependencies are not installed.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nt">-f</span> <span class="nb">install</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git" width="30px" style="float:left; margin-right: 5px" /> <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a>: a tool for version control.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>git-all
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><img src="https://curl.se/logo/curl-logo.svg" alt="Curl" width="60px" style="float:left; margin-right: 5px" />: a tool to download or transfer files/data from or to a server using FTP, HTTP, HTTPS, SCP, SFTP, SMB and other supported protocols on Linux or Unix-like system.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>curl
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><img src="https://lh4.googleusercontent.com/AZJfBIr-AXnw1DMB6yjljQCczzUv7Q0Vj9ENmDAWzdLsTv--rW3C0oejCY0gzUBmPcHsTQ=w1280" alt="" width="30px" style="float:left; margin-right: 5px" /> Terminal multiplexer: <a href="https://www.byobu.org/">byobu</a></p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>byobu
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>bash: <a href="https://www.zsh.org/">zsh</a> and <a href="https://ohmyz.sh/">oh-my-zsh</a> <img src="https://ohmyz.sh/img/OMZLogo_BnW.png" alt="" width="60px" /> for plugins/personalization. Powerful yet elegant.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>apt <span class="nb">install </span>zsh
+ sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span>wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh <span class="nt">-O</span> -<span class="si">)</span><span class="s2">"</span>
+</code></pre></div>    </div>
+
+    <p>A lot of articles/configurations available online, e.g. Github.</p>
+
+    <p>My terminal appearance:</p>
+
+    <p><img src="/assets/img/my_zsh.png" alt="image-20210318185826012" /></p>
+  </li>
+  <li>
+    <p>Web browser: <a href="https://www.google.com/chrome/">Chrome</a>. I’d suggest Chrome though Firefox is default in Ubuntu. The reason is that Chrome is supported by Google and has a larger community and tools, such as gmail, google drive.</p>
+
+    <ol>
+      <li>Integral with Google Drive on Ubuntu 20.04
+        <ul>
+          <li>Add online account to GNOME in the setting, but this way doesn’t work well if we have to interact frequently, like read and write file.</li>
+          <li>As an alternative, try <a href="https://github.com/astrada/google-drive-ocamlfuse">google-drive-ocamlfuse</a>. Installation and usage on the homepage are easy to follow.</li>
+        </ul>
+      </li>
+      <li>Chrome plugins
+        <ul>
+          <li>Ad block, etc.</li>
+          <li>OneTab for tab management</li>
+          <li>Momentum for customized new tab</li>
+          <li>Tampermonkey for user script</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><img src="https://github.com/typora/wiki-website/blob/gh-pages/assets/img/favicon-32.png?raw=true" alt="" width="30px" style="float:left; margin-right: 5px" /> Markdown: <a href="typora.io">Typora</a>. Best markdown editor I’ve experienced. Support $\LaTeX$ and exporting to PDF, html, tex, rST, word, etc.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># or run:</span>
+<span class="c"># sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE</span>
+wget <span class="nt">-qO</span> - https://typora.io/linux/public-key.asc | <span class="nb">sudo </span>apt-key add -
+<span class="c"># add Typora's repository</span>
+<span class="nb">sudo </span>add-apt-repository <span class="s1">'deb https://typora.io/linux ./'</span>
+<span class="nb">sudo </span>apt-get update
+<span class="c"># install typora</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>typora
+</code></pre></div>    </div>
+
+    <p>If failed due to <a href="https://askubuntu.com/questions/1246031/gpg-invalid-key-resource-url-following-docker-official-guide">gpg: invalid key</a>, remove the file in the “/etc/apt/trusted.gpg.d/home:manuelschneid3r.gpg”.</p>
+  </li>
+  <li>
+    <p>Text editor for general use: <a href="https://www.sublimetext.com/">Sublime text 3</a>.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-qO</span> - https://download.sublimetext.com/sublimehq-pub.gpg | <span class="nb">sudo </span>apt-key add -
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>apt-transport-https
+<span class="nb">sudo </span>add-apt-repository <span class="s2">"deb https://download.sublimetext.com/ apt/stable/"</span>
+<span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt <span class="nb">install </span>sublime-text
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>IDE: <a href="https://www.jetbrains.com/toolbox-app/">Jetbrain toolbox</a> and PyCharm. Best for Python and Java.</p>
+  </li>
+  <li>
+    <p>Desktop automation utility: <a href="https://github.com/autokey/autokey">AutoKey</a>.</p>
+
+    <p>Install by package manager or <code class="language-plaintext highlighter-rouge">pip</code>.</p>
+  </li>
+  <li>
+    <p>Dictionary: <a href="http://goldendict.org/">GoldenDict</a>. Support select words from screen. Support search from online source like WiKi and Google.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>goldendict
+</code></pre></div>    </div>
+
+    <p>Off-line dictionaries: <a href="http://download.huzheng.org/">StarDict</a></p>
+  </li>
+  <li>
+    <p>PDF reader: <a href="https://okular.kde.org/">Okular</a>. Support annotations like text, highlighter, hand-draw. Support multiple tabs. Support index and search.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">Warning</code>: Try to install from Ubuntu software store, current stable release(20.12.3) on kde channel has some bug.</p>
+  </li>
+  <li>
+    <p><a href="https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux">Zoom</a></p>
+
+    <p><code class="language-plaintext highlighter-rouge">Problem:</code> When use a high solution monitor, need to change the configuration file to match the font size. See <a href="https://superuser.com/questions/1381054/how-to-enable-hidpi-support-on-zoom-us-linux-client">here</a>.</p>
+  </li>
+</ul>
+
+<h1 id="configure-gnome">Configure GNOME</h1>
+
+<p>This somehow quite personal. Anyhow if you want to do so, <code class="language-plaintext highlighter-rouge">Tweak</code> is the starting point, and Chrome-gnome plugin helps you manage the extensions.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>gnome-tweak-tool
+<span class="nb">sudo </span>apt <span class="nb">install </span>chrome-gnome-shell
+</code></pre></div></div>
+
+<p>Some popular extensions</p>
+
+<ul>
+  <li><a href="https://extensions.gnome.org/extension/307/dash-to-dock/">Dash to dock</a></li>
+  <li>Put windows</li>
+</ul>
+
+<p>Also, find themes <a href="https://www.pling.com/s/Gnome/browse">here</a>.</p>
+
+<h1 id="configure-my-python-environment">Configure my Python environment</h1>
+
+<h2 id="intro">Intro</h2>
+
+<p>I decide not to use <a href="https://www.anaconda.com/">Anaconda</a> in this computer, since currently I use <a href="python.org">Python</a> for research purpose and stick on a fairly stable version, say 3.8 or 3.9. I don’t need many different virtue environments and different versions of packages. Otherwise, it would be a good choice to manage the environments for beginners.</p>
+
+<h2 id="install-python">Install Python</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>python3.8
+</code></pre></div></div>
+
+<h2 id="packages">Packages</h2>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">pip</code> is not installed by default. So we have to install pip first.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>python3-pip
+</code></pre></div></div>
+
+<p>The binary file for <code class="language-plaintext highlighter-rouge">pip</code> is <code class="language-plaintext highlighter-rouge">pip3</code>, we can set an alias if we will not use Python 2.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias pip=pip3
+</code></pre></div></div>
+
+<p>The following list is from most frequent/important for me to less frequent. Most of them can be installed by</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>package_name
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><a href="https://jupyter.org/"><code class="language-plaintext highlighter-rouge">jupyter</code></a> Favorite tool for developing. A true notebook.</p>
+
+    <ol>
+      <li>
+        <p>Installation (for notebook only)</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>notebook
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Extensions, almost necessary for me to use jupyter note book. Provide functions like notifying idle, highlighting, moving chunks, etc.</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>jupyter-contrib-nbextensions
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Numpy</code>, fundamental package for scientific computing.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Scipy</code>, fundamental package for scientific computing.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">pandas</code>, data frame manipulation.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">scikit-learn</code>, machine learning algorithms.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">pytorch</code>, deep learning package developed by Facebook.</p>
+
+    <p>I installed the GPU version. For your CUDA and CUDNN version, try</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvidia-smi
+</code></pre></div>    </div>
+
+    <p>Some how <code class="language-plaintext highlighter-rouge">nvcc</code> is not installed but nvidia driver and CUDA are already installed in my computer, so I didn’t bother install them this time.</p>
+
+    <p>For pytoch, please refer to its homepage.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">matplotlib</code>, visualization.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">seaborn</code>, for better visualization</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Sphinx</code>, for writing documentations. For usage see my another post <a href="/tools/2021/03/06/How-to-publish-a-Python-package.html">here</a>.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">statsmodels</code>, for statistical analysis.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">thefuck</code>, a command line tool.</p>
+  </li>
+</ul>
+
+<h1 id="others">Others</h1>
+
+<ol>
+  <li>
+    <p>Font</p>
+
+    <ul>
+      <li>
+        <p>Install Font manager</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>font-manager
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>My favorite font: <a href="">Monaco</a>. Used for Overleaf as well.  Download the font by:</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www.gringod.com/wp-upload/software/Fonts/Monaco_Linux.ttf
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Wallpaper</p>
+
+    <p>Unfortunately, haven’t find a good solution for multiple monitors.</p>
+  </li>
+  <li>
+    <p>Albert</p>
+
+    <p>Doesn’t work very well with Google drive.</p>
+  </li>
+</ol>
+
+  </div><a class="u-url" href="/tools/2021/03/18/Build-my-Ubuntu-20.04-(focal).html" hidden></a>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Contact</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Ganghua Wang</li><li><a class="u-email" href="mailto:wang9019@umn.edu">wang9019@umn.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"> <ul class="social-media-list"><a href="https://github.com/keywgh"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username"></span></a></ul> 
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p><p>Nice to <strong><em>meat</em></strong> you.</p>
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
