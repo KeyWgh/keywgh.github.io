@@ -13,9 +13,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Latex related topics | Ganghua Wang</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Latex related topics" />
 <meta name="author" content="Ganghua Wang" />
 <meta property="og:locale" content="en_US" />
@@ -26,8 +26,10 @@
 <meta property="og:site_name" content="Ganghua Wang" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-10-11T03:25:55+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Latex related topics" />
 <script type="application/ld+json">
-{"description":"A learning note for latex.","@type":"BlogPosting","headline":"Latex related topics","dateModified":"2019-10-11T03:25:55+00:00","datePublished":"2019-10-11T03:25:55+00:00","url":"http://keywgh.github.io/tools/2019/10/11/Latex-related.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://keywgh.github.io/tools/2019/10/11/Latex-related.html"},"author":{"@type":"Person","name":"Ganghua Wang"},"@context":"https://schema.org"}</script>
+{"description":"A learning note for latex.","headline":"Latex related topics","dateModified":"2019-10-11T03:25:55+00:00","datePublished":"2019-10-11T03:25:55+00:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://keywgh.github.io/tools/2019/10/11/Latex-related.html"},"url":"http://keywgh.github.io/tools/2019/10/11/Latex-related.html","author":{"@type":"Person","name":"Ganghua Wang"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
@@ -101,9 +103,9 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 <span class="k">\makeatother</span>
 </code></pre></div>    </div>
 
-    <p><code class="highlighter-rouge">\romannumeral</code> is $\LaTeX$  kernel primitive</p>
+    <p><code class="language-plaintext highlighter-rouge">\romannumeral</code> is $\LaTeX$  kernel primitive</p>
 
-    <p>Alternatively, using packages like <code class="highlighter-rouge">\usepackage{romannum}</code></p>
+    <p>Alternatively, using packages like <code class="language-plaintext highlighter-rouge">\usepackage{romannum}</code></p>
   </li>
   <li>
     <p>Put word/symbol above a symnol</p>
@@ -111,7 +113,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
     <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\overset</span><span class="p">{}</span>
 </code></pre></div>    </div>
 
-    <p>For arrows <code class="highlighter-rouge">\xRightarrow[below]{above}</code></p>
+    <p>For arrows <code class="language-plaintext highlighter-rouge">\xRightarrow[below]{above}</code></p>
   </li>
   <li>
     <p>Accents, Special letters</p>
@@ -132,7 +134,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
     <ul>
       <li>
-        <p><code class="highlighter-rouge">floatrow</code> Based Solution</p>
+        <p><code class="language-plaintext highlighter-rouge">floatrow</code> Based Solution</p>
 
         <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{figure}</span>
 	<span class="k">\CenterFloatBoxes</span>
@@ -148,14 +150,14 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 </code></pre></div>        </div>
 
         <ul>
-          <li>In two column environment, <code class="highlighter-rouge">\begin{figure}...\end{figure}</code> should be replaced by <code class="highlighter-rouge">\begin{figure*}...\begin{figure*}</code> if you want your mixed results occupy both of the columns.</li>
-          <li>If you have used <code class="highlighter-rouge">float</code> package, you can not use this solution. Because they are incompitable.</li>
+          <li>In two column environment, <code class="language-plaintext highlighter-rouge">\begin{figure}...\end{figure}</code> should be replaced by <code class="language-plaintext highlighter-rouge">\begin{figure*}...\begin{figure*}</code> if you want your mixed results occupy both of the columns.</li>
+          <li>If you have used <code class="language-plaintext highlighter-rouge">float</code> package, you can not use this solution. Because they are incompitable.</li>
         </ul>
       </li>
       <li>
-        <p><code class="highlighter-rouge">minipage</code> Based Solution</p>
+        <p><code class="language-plaintext highlighter-rouge">minipage</code> Based Solution</p>
 
-        <p>For each minipage, use <code class="highlighter-rouge">\captionsetup{type=...}</code> to change float type.</p>
+        <p>For each minipage, use <code class="language-plaintext highlighter-rouge">\captionsetup{type=...}</code> to change float type.</p>
       </li>
     </ul>
   </li>

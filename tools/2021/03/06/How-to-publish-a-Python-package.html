@@ -13,9 +13,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>How to publish a Python package | Ganghua Wang</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="How to publish a Python package" />
 <meta name="author" content="Ganghua Wang" />
 <meta property="og:locale" content="en_US" />
@@ -26,8 +26,10 @@
 <meta property="og:site_name" content="Ganghua Wang" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-03-06T01:44:37+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to publish a Python package" />
 <script type="application/ld+json">
-{"description":"This blog records the way how I build and publish my first Python package, SubsetPrivacy (not released yet).","@type":"BlogPosting","headline":"How to publish a Python package","dateModified":"2021-03-06T01:44:37+00:00","datePublished":"2021-03-06T01:44:37+00:00","url":"http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html"},"author":{"@type":"Person","name":"Ganghua Wang"},"@context":"https://schema.org"}</script>
+{"description":"This blog records the way how I build and publish my first Python package, SubsetPrivacy (not released yet).","headline":"How to publish a Python package","dateModified":"2021-03-06T01:44:37+00:00","datePublished":"2021-03-06T01:44:37+00:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html"},"url":"http://keywgh.github.io/tools/2021/03/06/How-to-publish-a-Python-package.html","author":{"@type":"Person","name":"Ganghua Wang"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
@@ -83,7 +85,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>This blog records the way how I build and publish my first Python package, <code class="highlighter-rouge">SubsetPrivacy</code> (not released yet).</p>
+    <p>This blog records the way how I build and publish my first Python package, <code class="language-plaintext highlighter-rouge">SubsetPrivacy</code> (not released yet).</p>
 
 <p>My environments:</p>
 
@@ -107,7 +109,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
 <p>Now you’ll have a project directory looks like this</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>packaging_tutorial
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>packaging_tutorial
 ├── LICENSE
 ├── README.md
 ├── example_pkg
@@ -124,7 +126,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
 <ul>
   <li>Generate distributions</li>
-  <li>Upload the package to <code class="highlighter-rouge">Test PyPI</code> and finally <code class="highlighter-rouge">PyPI</code></li>
+  <li>Upload the package to <code class="language-plaintext highlighter-rouge">Test PyPI</code> and finally <code class="language-plaintext highlighter-rouge">PyPI</code></li>
   <li>Install the package we just uploaded</li>
 </ul>
 
@@ -132,15 +134,15 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 
 <h2 id="organize-the-code">Organize the code</h2>
 
-<p>The package I wrote is small — hence no need for sub-packages, I put all of my modules under the <code class="highlighter-rouge">example_pkg</code> directory. For example,</p>
+<p>The package I wrote is small — hence no need for sub-packages, I put all of my modules under the <code class="language-plaintext highlighter-rouge">example_pkg</code> directory. For example,</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example_pkg
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example_pkg
 ├── __init__.py
 ├── foo.py
 └── bar.py
 </code></pre></div></div>
 
-<p><a href="https://docs.python.org/3/reference/import.html#regular-packages">Here’s the documentation for</a> <code class="highlighter-rouge">__init__.py</code> . In short, when <code class="highlighter-rouge">example_pkg</code> is imported, python will automatically execute  this file, which servers as the initialization of the whole project. We can import functions and classes defined in other modules in this file, such as</p>
+<p><a href="https://docs.python.org/3/reference/import.html#regular-packages">Here’s the documentation for</a> <code class="language-plaintext highlighter-rouge">__init__.py</code> . In short, when <code class="language-plaintext highlighter-rouge">example_pkg</code> is imported, python will automatically execute  this file, which servers as the initialization of the whole project. We can import functions and classes defined in other modules in this file, such as</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">.foo</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span> <span class="nn">.bar</span> <span class="kn">import</span> <span class="o">*</span>
@@ -151,36 +153,36 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">example_pkg</span>
 </code></pre></div></div>
 
-<p>, the functions in <code class="highlighter-rouge">foo.py</code> and <code class="highlighter-rouge">bar.py</code> are available.</p>
+<p>, the functions in <code class="language-plaintext highlighter-rouge">foo.py</code> and <code class="language-plaintext highlighter-rouge">bar.py</code> are available.</p>
 
-<p><strong>Remark 1:</strong> In the above, we use relative import <code class="highlighter-rouge">from .foo import *</code> since all the files are under the same directory. Absolute import will be <code class="highlighter-rouge">from example_pkg.foo import *</code>.</p>
+<p><strong>Remark 1:</strong> In the above, we use relative import <code class="language-plaintext highlighter-rouge">from .foo import *</code> since all the files are under the same directory. Absolute import will be <code class="language-plaintext highlighter-rouge">from example_pkg.foo import *</code>.</p>
 
-<p><strong>Remark 2:</strong> Define <code class="highlighter-rouge">__all__</code> variable in the <code class="highlighter-rouge">foo.py</code> will influence the behavior of <code class="highlighter-rouge">from .foo import *</code>, only items listed in the  <code class="highlighter-rouge">__all__</code> will be imported. Also, if  <code class="highlighter-rouge">__all__</code>  is not specified, all variables start with <code class="highlighter-rouge">_</code> or <code class="highlighter-rouge">__</code> will not be imported.</p>
+<p><strong>Remark 2:</strong> Define <code class="language-plaintext highlighter-rouge">__all__</code> variable in the <code class="language-plaintext highlighter-rouge">foo.py</code> will influence the behavior of <code class="language-plaintext highlighter-rouge">from .foo import *</code>, only items listed in the  <code class="language-plaintext highlighter-rouge">__all__</code> will be imported. Also, if  <code class="language-plaintext highlighter-rouge">__all__</code>  is not specified, all variables start with <code class="language-plaintext highlighter-rouge">_</code> or <code class="language-plaintext highlighter-rouge">__</code> will not be imported.</p>
 
-<p><strong>Remark 3:</strong> Test is important! Put the test codes in the parallel folder <code class="highlighter-rouge">tests</code>. Since I’m not familiar with that, the only recommendation is package <a href="https://docs.python.org/3/library/unittest.html"><code class="highlighter-rouge">unittest</code></a> .</p>
+<p><strong>Remark 3:</strong> Test is important! Put the test codes in the parallel folder <code class="language-plaintext highlighter-rouge">tests</code>. Since I’m not familiar with that, the only recommendation is package <a href="https://docs.python.org/3/library/unittest.html"><code class="language-plaintext highlighter-rouge">unittest</code></a> .</p>
 
 <p>Good, now it’s time to write the documentations!</p>
 
 <h2 id="documentations">Documentations</h2>
 
-<p><a href="https://www.sphinx-doc.org/en/master/index.html"><code class="highlighter-rouge">Sphinx</code></a> makes life easier! It’s the most famous and widely-used tool for documentation generation, specially designed for Python. The quick start given by the official website is somewhat hard for me to understand. After spending some time Googling, I construct my docs with the help of this <a href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html">tutorial</a>.</p>
+<p><a href="https://www.sphinx-doc.org/en/master/index.html"><code class="language-plaintext highlighter-rouge">Sphinx</code></a> makes life easier! It’s the most famous and widely-used tool for documentation generation, specially designed for Python. The quick start given by the official website is somewhat hard for me to understand. After spending some time Googling, I construct my docs with the help of this <a href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html">tutorial</a>.</p>
 
 <ol>
   <li>
-    <p>Install Sphinx using <code class="highlighter-rouge">pip install -U Sphinx</code></p>
+    <p>Install Sphinx using <code class="language-plaintext highlighter-rouge">pip install -U Sphinx</code></p>
   </li>
-  <li>Create and initialize <code class="highlighter-rouge">docs</code> directory
+  <li>Create and initialize <code class="language-plaintext highlighter-rouge">docs</code> directory
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd </span>packaging_tutorial
 <span class="nv">$ </span><span class="nb">mkdir </span>docs
 <span class="nv">$ </span><span class="nb">cd </span>docs
 <span class="nv">$ </span>sphinx-quickstart
 </code></pre></div>    </div>
-    <p>I choose to use a directory “_build” within the root path (here the <code class="highlighter-rouge">docs</code>).</p>
+    <p>I choose to use a directory “_build” within the root path (here the <code class="language-plaintext highlighter-rouge">docs</code>).</p>
   </li>
   <li>
-    <p>Now the <code class="highlighter-rouge">docs</code> directory looks like this</p>
+    <p>Now the <code class="language-plaintext highlighter-rouge">docs</code> directory looks like this</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docs
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docs
 ├── _static
 ├── _templates
 ├── _build
@@ -202,7 +204,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   </li>
 </ol>
 
-<p>For <code class="highlighter-rouge">conf.py</code>, it controls the behavior of building process. Some extensions are almost necessary,</p>
+<p>For <code class="language-plaintext highlighter-rouge">conf.py</code>, it controls the behavior of building process. Some extensions are almost necessary,</p>
 
 <ul>
   <li>
@@ -221,20 +223,20 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>I override the default theme by readthedocs theme (have to install the theme first through <code class="highlighter-rouge">pip</code>)</p>
+    <p>I override the default theme by readthedocs theme (have to install the theme first through <code class="language-plaintext highlighter-rouge">pip</code>)</p>
 
     <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">html_theme</span> <span class="o">=</span> <span class="s">"sphinx_rtd_theme"</span>
 </code></pre></div>    </div>
   </li>
 </ul>
 
-<p>Now, feel free to change <code class="highlighter-rouge">index.rst</code> and add more contents. The website is build based on <a href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">reStructuredText</a>. (Not easy to learn at all!) You can also add extensions like markdown and Jupyter notebook.</p>
+<p>Now, feel free to change <code class="language-plaintext highlighter-rouge">index.rst</code> and add more contents. The website is build based on <a href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">reStructuredText</a>. (Not easy to learn at all!) You can also add extensions like markdown and Jupyter notebook.</p>
 
 <p><strong>Remark 4:</strong> I suppose you know how to add documentations for the code, otherwise, here are another two nice references on <a href="https://numpydoc.readthedocs.io/en/latest/format.html">Numpy style guide</a> and <a href="https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings">Google style guide</a>.</p>
 
 <h2 id="host-the-docs">Host the docs</h2>
 
-<p><a href="https://readthedocs.org">Read the Docs</a> is a free docs hosting for open source projects. It’s smooth to host the docs if we already build the docs using <code class="highlighter-rouge">Sphinx</code> and upload it to the Github. Otherwise, you may manually import the project following <a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html">this guide</a>.</p>
+<p><a href="https://readthedocs.org">Read the Docs</a> is a free docs hosting for open source projects. It’s smooth to host the docs if we already build the docs using <code class="language-plaintext highlighter-rouge">Sphinx</code> and upload it to the Github. Otherwise, you may manually import the project following <a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html">this guide</a>.</p>
 
 <h2 id="ending">Ending</h2>
 

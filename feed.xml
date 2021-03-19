@@ -18,8 +18,7 @@
                 <title>How to publish a Python package</title>
                 
                 
-                    <description>&lt;p&gt;This blog records the way how I build and publish my first Python package, &lt;code class=&quot;highlighter-rouge&quot;&gt;SubsetPrivacy&lt;/code&gt; (not released yet).&lt;/p&gt;
-
+                    <description>&lt;p&gt;This blog records the way how I build and publish my first Python package, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SubsetPrivacy&lt;/code&gt; (not released yet).&lt;/p&gt;
 </description>
                 
                 <pubDate>Sat, 06 Mar 2021 01:44:37 +0000</pubDate>
@@ -32,7 +31,6 @@
                 
                 
                     <description>&lt;p&gt;In short, from permeissive to restrictive are MIT, BSD3, Apache, and GPL. MIT is good for personal projects while GPL is better for serious company projects.&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Wed, 03 Feb 2021 18:36:55 +0000</pubDate>
@@ -45,7 +43,6 @@
                 
                 
                     <description>&lt;p&gt;The motivation to write this article is that I have been notified my Spring 2020 Student Rating of Teaching (SRT) results were available recently. After one year’s teaching for STAT 3011 and 3021, and talks with some professors, I think it’s beneficial to rethink that what should I do to help and support my students. Also, it’s a try to let you know my thoughts and style as a TA.&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Sat, 08 Aug 2020 19:37:55 +0000</pubDate>
@@ -58,7 +55,6 @@
                 
                 
                     <description>&lt;p style=&quot;font-family: myFont; &quot;&gt;
-
 &lt;/p&gt;
 </description>
                 
@@ -72,7 +68,6 @@
                 
                 
                     <description>&lt;p&gt;Cited from &lt;a href=&quot;https://www.johndcook.com/blog/2011/06/21/how-to-fit-an-elephant/&quot;&gt;John D. Cook&lt;/a&gt;&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Fri, 20 Mar 2020 19:47:55 +0000</pubDate>
@@ -86,9 +81,7 @@
                 
                     <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;
-
-</description>
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;</description>
                 
                 <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
                 <link>http://keywgh.github.io/2019/12/21/UMN-Traveler-Project-2019.html</link>
@@ -100,7 +93,6 @@
                 
                 
                     <description>&lt;p&gt;Speaker:   Andrew Poppick, Assistant Professor of Statistics at Carleton College&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Thu, 21 Nov 2019 16:00:55 +0000</pubDate>
@@ -113,7 +105,6 @@
                 
                 
                     <description>&lt;p&gt;Some problems I met when constructing website, along with my solutions.&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Sat, 16 Nov 2019 21:17:55 +0000</pubDate>
@@ -126,7 +117,6 @@
                 
                 
                     <description>&lt;p&gt;Speaker:   Oksana Chkrebtii, Department of Statistics, The Ohio State University&lt;/p&gt;
-
 </description>
                 
                 <pubDate>Thu, 07 Nov 2019 16:00:55 +0000</pubDate>
