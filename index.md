@@ -8,7 +8,7 @@ permalink: /
 
 <style type="text/css">
 #wrap {
-   width:700px;
+   width: $content-width;
    margin:0 auto;
 }
 #left_col {
@@ -43,12 +43,4 @@ permalink: /
    <p>B.S., Statistics, Peking University, Sept. 2015 - July 2019 </p>
 </div>
 </div>
-
-<hr style="clear:both;">
-  <p style='float:right'><br/>
-  <q > All models are wrong; some models are useful. </q> --<i>George Box</i>
-  </p>
-
-
-
 

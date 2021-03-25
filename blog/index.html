@@ -9,7 +9,7 @@ pagination:
 <form action="/search.html" method="get">
   <!-- <label for="search-box">Search</label> -->
   <input type="text" id="search-box" name="query" size="30" style="font-size:20px;">
-  <input type="submit" value="search" style="font-size : 20px; height: 125px;" />
+  <input type="submit" value="search" style="font-size : 20px; height: 30px;" />
 </form>
 
 <!-- This loops through the paginated posts -->
@@ -85,7 +85,8 @@ pagination:
     {%- if notNearEnd < paginator.total_pages  -%}
     <li><a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt;&gt;</a></li>
     {%- endif -%}
-    <p style="float: right">Subscribe via <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+    <p style="float: right">Subscribe via <a href="{% link feed.xml %}">RSS</a></p>
   {%- endif -%}
+
   </ul>
 </div>
