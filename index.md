@@ -28,15 +28,16 @@ permalink: /
     <i>Ph. D. Candidate</i><br /> 
     <a href="https://cla.umn.edu/statistics" target="_blank"><i>School of Statistics</i></a><br /> 
       <a href="https://twin-cities.umn.edu" target="_blank"><i>University of Minnesota</i></a><br />
-    350 Ford Hall<br />     
+    492 Ford Hall<br />     
     224 Church Street SE<br />
     Minneapolis, MN 55455 
     </p>
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a second-year Ph. D. student at the School of Statistics, University of Minnesota. </p>
- <p class="research">My research interests mainly lie in statistical learning methods and their applications, such as network analysis and data privacy. My study is motivated by solving practical problems. Recently, I'm focusing on developing model selection and diagnostic methods and new data privacy framework. If you're interested in any areas above and want to talk with me, feel free to email me or drop by my office. Here is my <a href='assets/resource/CV_GW.pdf'>CV</a>.</p> 
+      Hi, I am Ganghua Wang, a third-year Ph. D. student at the School of Statistics, University of Minnesota. </p>
+ <p class="research">My research interests mainly lie in statistical learning methods and their applications such as network analysis and data privacy. My study is motivated by real-world problems. Recently, I'm focusing on privacy-related topics and deep learning theory. If you're interested in any areas above and want to talk with me, feel free to email me or drop by my office. Here is my <a href='assets/resource/CV_GW.pdf'>CV</a>.</p> 
+
 
    <p><strong>Education</strong></p>
    <p>Ph.D., School of Statistics, University of Minnesota, Aug. 2019 - present </p>
