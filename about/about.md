@@ -46,6 +46,16 @@ This is a personal website of Ganghua Wang, which is created by [Jekyll](https:/
 
 ## Gallery
 
+### *2021*{: .h1s}
+
+[comment]: <> ![Lake](https://raw.githubusercontent.com/KeyWgh/myoss/5132593cadf064413529e3dc2a08db887dd55892/uPic/IMG_6858.jpeg){:  width="500px" style='float:left; margin-right: 5%'} 
+<figure>
+<img  src="https://raw.githubusercontent.com/KeyWgh/myoss/5132593cadf064413529e3dc2a08db887dd55892/uPic/IMG_6858.jpeg"  width="500px">
+<figcaption style="text-align: left;"> Lake Superior. From left to right are Xinran Wang, Prof. <a href="https://jding.org/">Jie Ding</a>, Prof. <a href="https://cla.umn.edu/about/directory/profile/yangx374">Yuhong Yang</a> and Ganghua Wang. </figcaption> 
+</figure>
+
+<p style="clear:both;"></p>
+
 ### *2020*{: .h1s}
 
 
