@@ -46,6 +46,7 @@ algolia:
 
 header_pages: 
   - about/about.md
+  - research/index.md
   - teach/index.md 
   # - other/index.md
   # - blog/index.html

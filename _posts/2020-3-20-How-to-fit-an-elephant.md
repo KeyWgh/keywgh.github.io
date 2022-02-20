@@ -66,14 +66,14 @@ Cited from [John D. Cook](https://www.johndcook.com/blog/2011/06/21/how-to-fit-a
 > pylab.show()
 > ```
 
-Some personal comments:
+Some comments:
 
-- Actually we use 9 parameters(for they’re complex number) to fit the whole elephant, and 11 parameters to make its trunk wiggle(like the .gif showed [here]({{site.baseurl}}/assets/img/elephant_ffmpeg.gif)).
-- The original paper requires access to read. [Here]((https://publications.mpi-cbg.de/getDocument.html?id=ff8080812daff75c012dc1b7bc10000c)) is an alternative version.
+- Actually the code above used five complex numbers, four for the contour and one for the eyepiece, thus ten parameters to fit the whole elephant.
+- We need one additional parameter to make its trunk wiggle, along with some code modification. [Animation]({{site.baseurl}}/assets/img/elephant_ffmpeg.gif), [Download code]({{site.baseurl}}/assets/resource/elephant.py){:target="_blank"} 
 - [Fourier](http://en.wikipedia.org/wiki/Joseph_Fourier) strikes again!
-- The original speak can be found [here](https://www.kgbreport.com/archives/2014/02/quotes-of-the-day-john-von-neumann.shtml).
 
 <!--
+
 >All stable processes we shall predict. All unstable processes we shall control.
 >
 >Anyone attempting to generate random numbers by deterministic means is, of course, living in a state of sin.
