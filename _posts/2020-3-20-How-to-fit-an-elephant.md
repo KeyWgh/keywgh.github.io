@@ -4,7 +4,6 @@ title:  "How to fit an elephant"
 date:   2020-3-20 14:47:55 -0500
 categories: story
 
-
 ---
 
 Cited from [John D. Cook](https://www.johndcook.com/blog/2011/06/21/how-to-fit-an-elephant/) 
@@ -18,7 +17,10 @@ Cited from [John D. Cook](https://www.johndcook.com/blog/2011/06/21/how-to-fit-a
 > It turns out you can literally fit an elephant with four parameters if you allow the parameters to be complex numbers. See this paper for details: "Drawing an elephant with four complex parameters"[^1].
 >
 > [Piotr](https://twitter.com/zolnie) also sent me the following Python code he’d written to implement the method in the paper. This code produced the image above.
->
+> 
+
+{% details **Click** to expand code. %}
+> 
 > ```python
 > """
 > Author: Piotr A. Zolnierczuk (zolnierczukp at ornl dot gov)
@@ -51,20 +53,22 @@ Cited from [John D. Cook](https://www.johndcook.com/blog/2011/06/21/how-to-fit-a
 >     Cx[2] = p2.real*1j
 >     Cx[3] = p3.real
 >     Cx[5] = p4.real
-> 
+>     
 >     Cy[1] = p4.imag + p1.imag*1j
 >     Cy[2] = p2.imag*1j
 >     Cy[3] = p3.imag*1j
-> 
+>     
 >     x = np.append(fourier(t,Cx), [-p5.imag])
 >     y = np.append(fourier(t,Cy), [p5.imag])
-> 
+>     
 >     return x,y
 > 
 > x, y = elephant(np.linspace(0,2*np.pi,1000), p1, p2, p3, p4, p5)
 > pylab.plot(y,-x,'.')
 > pylab.show()
 > ```
+{% enddetails %}
+
 
 Some comments:
 
