@@ -111,6 +111,11 @@ It turns out you can literally fit an elephant with four parameters if you allow
 
   <p><a href="https://twitter.com/zolnie">Piotr</a> also sent me the following Python code he’d written to implement the method in the paper. This code produced the image above.</p>
 
+</blockquote>
+
+<details><summary><strong>Click</strong> to expand code.</summary>
+<blockquote>
+
   <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
 Author: Piotr A. Zolnierczuk (zolnierczukp at ornl dot gov)
 
@@ -142,14 +147,14 @@ Am. J. Phys. 78, 648 (2010), DOI:10.1119/1.3254017
     <span class="n">Cx</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">p2</span><span class="p">.</span><span class="n">real</span><span class="o">*</span><span class="mf">1j</span>
     <span class="n">Cx</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">p3</span><span class="p">.</span><span class="n">real</span>
     <span class="n">Cx</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">p4</span><span class="p">.</span><span class="n">real</span>
-
+    
     <span class="n">Cy</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">p4</span><span class="p">.</span><span class="n">imag</span> <span class="o">+</span> <span class="n">p1</span><span class="p">.</span><span class="n">imag</span><span class="o">*</span><span class="mf">1j</span>
     <span class="n">Cy</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">p2</span><span class="p">.</span><span class="n">imag</span><span class="o">*</span><span class="mf">1j</span>
     <span class="n">Cy</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">p3</span><span class="p">.</span><span class="n">imag</span><span class="o">*</span><span class="mf">1j</span>
-
+    
     <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">fourier</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">Cx</span><span class="p">),</span> <span class="p">[</span><span class="o">-</span><span class="n">p5</span><span class="p">.</span><span class="n">imag</span><span class="p">])</span>
     <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">fourier</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">Cy</span><span class="p">),</span> <span class="p">[</span><span class="n">p5</span><span class="p">.</span><span class="n">imag</span><span class="p">])</span>
-
+    
     <span class="k">return</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span>
 
 <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">elephant</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span><span class="p">,</span><span class="mi">1000</span><span class="p">),</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">,</span> <span class="n">p3</span><span class="p">,</span> <span class="n">p4</span><span class="p">,</span> <span class="n">p5</span><span class="p">)</span>
@@ -157,6 +162,7 @@ Am. J. Phys. 78, 648 (2010), DOI:10.1119/1.3254017
 <span class="n">pylab</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div>  </div>
 </blockquote>
+</details>
 
 <p>Some comments:</p>
 
