@@ -34,8 +34,10 @@ We are also interested in understanding the success of deep neural networks, suc
 
 [1] Gen Li, **Ganghua Wang**, Yuantao Gu, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. In:arXiv preprint (2021)
 
-[2] Wenjing Yang\*, **Ganghua Wang**\*, Enmao Diao, Vahid Tarokh, Jie Ding, and Yuhong
+[2] Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
 Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. In:arXiv preprint (2022)
+
+[3] Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. In: arXiv preprint (2022).
 
 
 
@@ -49,4 +51,4 @@ With the rapid development of modern machine learning (ML) methods, ML models ar
 
 
 
-[1] **Ganghua Wang**<sup>†</sup>, Payani Ali, and Myungjin Lee. “Federated learning with group bias mitigation: beyond the local fairness”. Manuscript
+[1] **Ganghua Wang**<sup>†</sup>, Ali Payani, and Myungjin Lee. “Federated learning with group bias mitigation: beyond the local fairness”. Manuscript
