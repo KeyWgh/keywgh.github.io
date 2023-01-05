@@ -16,4 +16,4 @@ branches:
     # Change this to gh-pages if you're deploying using the gh-pages branch
     - jekyll
 rvm:
- - 2.5
+ - 2.7
