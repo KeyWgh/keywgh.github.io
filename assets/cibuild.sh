@@ -16,7 +16,6 @@ mkdir _site
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/KeyWgh/keywgh.github.io.git --branch master _site
 
-gem install bundle:2.2.14
 # build with Jekyll into "_site"
 bundle exec jekyll build
 

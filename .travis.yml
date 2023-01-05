@@ -3,7 +3,7 @@
 language: ruby
 cache: bundler
 before_install:
-  - gem install bundler
+  - gem install bundler:2.2.14
 before_script:
   - chmod +x ./assets/cibuild.sh
 script: ./assets/cibuild.sh
