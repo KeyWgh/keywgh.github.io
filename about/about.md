@@ -87,14 +87,14 @@ A comic from [PhD comics](http://phdcomics.com/comics/archive.php?comicid=124).
 
   <figure style="float:left;width:250px;">
   	<img  src="../assets/img/letter.jpeg" height="260">
-  	<figcaption style="text-align: left;">First thanks letter I have ever received. </figcaption>
+  	<figcaption style="text-align: left;">Thanks letter I received as TA. </figcaption>
   </figure>
 
 
 <p style="clear:both;"></p>
 ### *2018*{: .h1s}
 
-Following is a byproduct when we(with Jiaze Qiu and Yixuan Tan) try to reproduce this paper: [Fast Patch-based Style Transfer of Arbitrary Style](https://arxiv.org/pdf/1612.04337.pdf?fbclid=IwAR2xiW2dBBmnARfERb4wcC2wmLIUC9puHrdgLVCKDj5wZO3dqTCnYTfKl6w), which is based on convolutional nerual network.
+A toy example of style transfer: [Fast Patch-based Style Transfer of Arbitrary Style](https://arxiv.org/pdf/1612.04337.pdf?fbclid=IwAR2xiW2dBBmnARfERb4wcC2wmLIUC9puHrdgLVCKDj5wZO3dqTCnYTfKl6w).
 
 <div id="row">
 <div class="column">
