@@ -16,13 +16,13 @@ exists in our daily lives. We risk privacy leakage for every step in the data pr
 
 [1] **Ganghua Wang** and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021).
 
-[2] **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, to appear (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
+[2] **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
 
 [3] **Ganghua Wang**, Jie Ding, and Yuhong Yang<sup>†</sup>. “Model Privacy: A Framework to Understand Model Stealing Attack and Defense”. Manuscript 
 
-[comment]:<> [4] **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Proc. ISIT, under review (2023).
+[comment]:<> [4] **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Proc. NeurIPS, under review (2023).
 
-[comment]:<> [5] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML, under review (2023).
+[4] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023).
 
 \* indicates equal contributions, <sup>†</sup> indicates corresponding author(s)
 
@@ -36,7 +36,7 @@ exists in our daily lives. We risk privacy leakage for every step in the data pr
 
 We are also interested in understanding the success of deep neural networks, such as the role of sparsity. 
 
-[1] Gen Li, **Ganghua Wang**, Yuantao Gu, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory, under major revision (2021)
+[1] Gen Li, **Ganghua Wang**, Yuantao Gu, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023)
 
 [2] Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
 Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2022)

@@ -46,6 +46,8 @@ permalink: /
 
 
    <p><strong>News</strong></p>
+   <p>Our paper “Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization” was accepted by IEEE Transcation of Information Theory!</p>
+   <p>Our paper <a href='https://openreview.net/pdf?id=iIuLNEnOue'>“Understanding Backdoor Attacks through the Adaptability Hypothesis”</a> was accepted by ICML 2023!</p>
    <p>Our paper <a href='https://openreview.net/pdf?id=i-DleYh34BM'>“Pruning deep neural networks from a sparsity perspective”</a> was accepted by ICLR 2023!</p>
 
 
