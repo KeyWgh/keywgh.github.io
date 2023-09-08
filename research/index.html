@@ -70,54 +70,141 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
         </label>
 
         <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/research/">Research</a><a class="page-link" href="/teach/">Teaching</a><a class="page-link" href="/blog/">Blog</a>
+          <a class="page-link" href="/assets/resource/CV_GW.pdf">CV</a>
         </div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h2 id="1-privacy-preserving-machine-learning"><strong style="color:#6f6fd9">1. Privacy-preserving Machine Learning</strong></h2>
+        <div id="table-of-contents">
+ <h1> Table of Contents </h1>
+<ol><li><a href="#machine-learning-safety"><strong style="color:#6f6fd9">Machine Learning Safety</strong></a><ol><li><a href="#data-and-model-privacy"><strong style="color:#6f6fd9">Data and Model Privacy</strong></a></li><li><a href="#model-fairness"><strong style="color:#6f6fd9">Model Fairness</strong></a></li><li><a href="#other-safety-aspects"><strong style="color:#6f6fd9">Other Safety Aspects</strong></a></li></ol></li><li><a href="#publications"><strong style="color:#6f6fd9">Publications</strong></a></li></ol>
+</div>
+<div class="home">
+  <style>
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#wrap {
+   width:700px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:250px;
+}
+#right_col {
+   float:right;
+   width:400px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.h1s{
+color: #1F70CB;
+text-decoration: underline;
+}
+</style>
+
+<h1 id="machine-learning-safety"><strong style="color:#6f6fd9">Machine Learning Safety</strong></h1>
+
+<!--
+<div id="intro">
+<div id="intro-text" style="float:left; width:450px">
+<p> While machine learning (ML) has shown remarkable success in many applications such as content recommendation on social media platforms, medical image diagnosis, and autonomous driving, there is a growing concern regarding the potential safety hazards coming with ML. As exemplified in Figure 1, people are interested in multi-facets evaulation of machine learning models besides accuracy. 
+</p> 
+<p>My current research focuses on three main aspects: <b>data privacy</b>, <b>model privacy</b>, and <b>model fairness</b>.</p>
+</div>
+<div id="intro-figure" style="float:right; width:200px; margin-right:5%">
+<figure >
+<img  src="/assets/img/strobel01-3178187.gif.webp"  width="200px">
+<figcaption style="text-align: left;">Figure 1. Different aspects of trustworthy ML. </figcaption></figure>
+</div>
+</div>
+<p style="clear:both;"></p>
+-->
+
+<figure style="float:right; width:200px; margin-right:5%">
+<img src="/assets/img/strobel01-3178187.gif.webp" width="200px" />
+<figcaption style="text-align: left;">Figure 1. Different aspects of trustworthy ML. </figcaption></figure>
+
+<p>While machine learning (ML) has shown remarkable success in many applications such as content recommendation on social media platforms, medical image diagnosis, and autonomous driving, there is a growing concern regarding the potential safety hazards coming with ML. As exemplified in Figure 1, people are interested in multi-facets evaulation of machine learning models besides accuracy.</p>
+
+<p>My current research focuses on three main aspects: <b>data privacy</b>, <b>model privacy</b>, and <b>model fairness</b>.</p>
+
+<p><br /></p>
+
+<h2 id="data-and-model-privacy"><strong style="color:#6f6fd9">Data and Model Privacy</strong></h2>
 
 <figure>
 <img src="/assets/img/privacy.png" width="750px" />
-<figcaption style="text-align: left;">Picture credit to reference [3] below. </figcaption></figure>
+<figcaption style="text-align: left;">Figure 2. Illustration of the machine learning life cycle and potential attacks. </figcaption></figure>
 
-<p>Despite the tremendous success of modern machine learning methods, the concern of privacy and security has gained more and more attention. The privacy threat is inconspicuous but widely
-exists in our daily lives. We risk privacy leakage for every step in the data processing life cycle, such as collection, storage, release, and analysis. Our goal is to develop privacy-preserving methods with built-in privacy guarantees.</p>
+<p>The privacy threat is inconspicuous but widely exists in our daily lives. We risk privacy leakage for every step in the machine learning life cycle, such as collection, storage, release, and analysis, as illustrated in Figure 2. Our goal is to develop privacy-preserving methods with built-in privacy guarantees, especially for the collected data and built models.</p>
 
-<p>[1] <strong>Ganghua Wang</strong> and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021).</p>
+<p>Data privacy pertains to the protection of sensitive information collected to build ML models. We have proposed a novel approach called <code class="language-plaintext highlighter-rouge">Subset Privacy</code> for protecting categorical data and developed an open-sourced software implementation [4, 8]. We have demonstrated its usage in multiple learning tasks and shown its potential to be useful in a wide range of fields beyond statistics due to its unique user-friendly implementation.</p>
 
-<p>[2] <strong>Ganghua Wang</strong>,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf">[pdf]</a></p>
+<p>In addition to data privacy, the reliability and security of the ML models built from the collected data are of paramount concern, which we refer to as model privacy. We have formulated the <code class="language-plaintext highlighter-rouge">Model Privacy</code> framework that can be applied to analyze multiple model attacks including stealing and backdoor attacks [3, 7, 9, 10].</p>
 
-<p>[3] <strong>Ganghua Wang</strong>, Jie Ding, and Yuhong Yang<sup>†</sup>. “Model Privacy: A Framework to Understand Model Stealing Attack and Defense”. Manuscript</p>
+<h2 id="model-fairness"><strong style="color:#6f6fd9">Model Fairness</strong></h2>
 
-<p>[4] Xun Xian*, <strong>Ganghua Wang</strong>*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023).</p>
+<figure style="float:right; width:350px; margin-right:5%">
+<img src="/assets/img/fair.webp" />
+<figcaption>Figure 3. Fairness in Machine Learning. </figcaption></figure>
+
+<p>The fairness of the ML model has attracted significant attention nowadays, especially in areas such as criminal justice and banking. It is well-known that ML models may inadvertently be unfair. For example, the COMPAS algorithm, which assigns recidivism risk scores to defendants based on their criminal history and demographic attributes, was found to have a significantly higher false positive rate for black defendants than white defendants, thereby violating the principle of equity on the basis of race.</p>
+
+<p>Our goal is to build a model that makes equitable decisions for different groups in the population. We have identified the conditions under which a broad class of distributed ML algorithms can produce fair models. Additionally, we have proposed a new algorithm that directly optimizes model fairness with theoretical guarantees [5].</p>
+
+<h2 id="other-safety-aspects"><strong style="color:#6f6fd9">Other Safety Aspects</strong></h2>
+
+<p><strong>Explainability:</strong> We studied the effect of the LASSO regularization on variable selection in terms of neural networks [2]. Our understanding indicates that neural networks can consistently select significant variable while achieving satisfactory accuracy.</p>
+
+<p><strong>Model compression:</strong> An emerging demand of machine learning models is to reduce the model size while retaining a comparable prediction performance to address limitations in computation and memory.
+We investigated a fundamental problem in model pruning: quantifying how much one can prune a model with theoretically guaranteed accuracy degradation. Insipred by the developed theory, we proposed a data-driven, adaptive pruning algorithm [1, 6].</p>
+
+<h1 id="publications"><strong style="color:#6f6fd9">Publications</strong></h1>
+
+<h3 id="peer-reviewed"><strong>Peer-reviewed</strong></h3>
 
 <p>* indicates equal contributions, <sup>†</sup> indicates corresponding author(s)</p>
 
-<h2 id="2-deep-learning-theory"><strong style="color:#6f6fd9">2. Deep learning theory</strong></h2>
+<p>[1] Enmao Diao*, <strong>Ganghua Wang</strong>*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) <a href="https://openreview.net/pdf?id=i-DleYh34BM">[pdf]</a></p>
 
-<figure>
-<img src="/assets/img/kd.png" width="750px" />
-<figcaption style="text-align: left;">Illustration of knowledge distribution. Picture credit to [Gao et al. 2021]. </figcaption></figure>
+<p>[2] Gen Li, <strong>Ganghua Wang</strong>, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023) <a href="https://ieeexplore.ieee.org/document/10121469">[pdf]</a></p>
 
-<p>We are also interested in understanding the success of deep neural networks, such as the role of sparsity.</p>
+<p>[3] Xun Xian*, <strong>Ganghua Wang</strong>*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023). <a href="https://openreview.net/pdf?id=iIuLNEnOue">[pdf]</a></p>
 
-<p>[1] Gen Li, <strong>Ganghua Wang</strong>, Yuantao Gu, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023)</p>
+<p>[4] <strong>Ganghua Wang</strong>,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) <a href="https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf">[pdf]</a></p>
 
-<p>[2] Wenjing Yang*, <strong>Ganghua Wang</strong>*, Jie Ding, and Yuhong
-Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2022)</p>
+<h3 id="under-review"><strong>Under Review</strong></h3>
 
-<p>[3] Enmao Diao*, <strong>Ganghua Wang</strong>*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) <a href="https://openreview.net/pdf?id=i-DleYh34BM">[pdf]</a></p>
+<p>[5] <strong>Ganghua Wang</strong><sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. arXiv prepreint (2023) <a href="https://arxiv.org/pdf/2305.09931.pdf">[pdf]</a></p>
 
-<h2 id="3-model-fairness"><strong style="color:#6f6fd9">3. Model Fairness</strong></h2>
+<p>[6] Wenjing Yang*, <strong>Ganghua Wang</strong>*, Jie Ding, and Yuhong
+Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2022) <a href="https://arxiv.org/pdf/2206.05604.pdf">[pdf]</a></p>
 
-<figure>
-<img src="/assets/img/fair.webp" width="750px" />
-<figcaption style="text-align: left;">Picture source: <a href="https://sitn.hms.harvard.edu/uncategorized/2020/fairness-machine-learning/">Fairness in Machine Learning</a>. </figcaption></figure>
+<p>[7] <strong>Ganghua Wang</strong>*, Xun Xian*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Preprint (2023).</p>
 
-<p>With the rapid development of modern machine learning (ML) methods, ML models are widely adopted in our daily life. Besides the model prediction accuracy, the fairness of the ML model has attracted significant attention nowadays, especially in areas such as criminal justice and banking. Our goal is to build a model that makes equitable decisions for all users, regardless of their race, gender or any other protected attributes.</p>
+<p>[8] <strong>Ganghua Wang</strong> and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021). <a href="https://arxiv.org/pdf/2107.02013.pdf">[pdf]</a></p>
 
-<p>[1] <strong>Ganghua Wang</strong><sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. arXiv prepreint (2023)</p>
+<p>[9]  Xun Xian*, <strong>Ganghua Wang</strong>*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Preprint (2023)</p>
+
+<h3 id="manuscript"><strong>Manuscript</strong></h3>
+
+<p>[10] <strong>Ganghua Wang</strong>, Jie Ding, and Yuhong Yang<sup>†</sup>. “Model Privacy: A Framework to Understand Model Stealing Attack and Defense”. Manuscript</p>
+
+</div>
 
       </div>
     </main><footer class="site-footer h-card">
