@@ -37,6 +37,8 @@ blockquote {
 color: #1F70CB;
 text-decoration: underline;
 }
+figure { display: table; }
+figcaption { display: table-caption; caption-side: bottom ; }
 </style>
 [comment]: <> FF0234(red) FF7902(orange) 1F70CB(blue)
 
@@ -44,6 +46,20 @@ text-decoration: underline;
 This is a personal website of Ganghua Wang, which is created by [Jekyll](https://jekyllrb.com/).
 
 ## Gallery
+
+### *2023*{: .h1s}
+
+
+<figure>
+<img  src="../assets/img/IMG_2553.jpg"  width="500px">
+<figcaption style="text-align: left;"> Me attending JSM 2023, Toronto, Canada. </figcaption> 
+</figure>
+
+<figure>
+<img  src="../assets/img/penguin.jpg"  width="500px">
+<figcaption style="text-align: left;" width="500px"> Yingyu Shen (Left 1); big, medium, and small good sons (in the backpack); really big peanut penguin (Right 1). It is my fortune to have you as my wife and have those three adorable "kids".  </figcaption> 
+</figure>
+
 
 ### *2021*{: .h1s}
 
@@ -74,16 +90,18 @@ This is a personal website of Ganghua Wang, which is created by [Jekyll](https:/
 
 ### *2019*{: .h1s}
 
-A comic from [PhD comics](http://phdcomics.com/comics/archive.php?comicid=124). 
-![work_output](http://phdcomics.com/comics/archive/phd050399s.gif)
+
+<figure>
+<img  src="http://phdcomics.com/comics/archive/phd050399s.gif"  width="600px">
+<figcaption style="text-align: left;"> A comic from <a href="http://phdcomics.com/comics/archive.php?comicid=124"> PhD comics</a>. </figcaption> 
+</figure>
 
 
-<!-- ![image](../assets/img/department.jpeg){: style="float: right;width:40%;height:40%"} -->
   <figure style="float:right;width:250px;margin-right: 10em;">
   	<img  src="../assets/img/department.jpeg">
-  	<figcaption style="text-align: right;">A pic of Ford Hall. </figcaption>
+  	<figcaption style="text-align: right;">A picture of Ford Hall. </figcaption>
   </figure>
-<!-- ![image](../assets/img/letter.jpeg){: style="float: left;width:49%"} -->
+
 
   <figure style="float:left;width:250px;">
   	<img  src="../assets/img/letter.jpeg" height="260">
@@ -98,18 +116,20 @@ A toy example of style transfer: [Fast Patch-based Style Transfer of Arbitrary S
 
 <div id="row">
 <div class="column">
-<figure >
-<img  src="../assets/img/boya1.png"  width="200px">
-<figcaption style="text-align: left;" >Output. </figcaption></figure></div>
+<figure  >
+<img  src="../assets/img/boya3.png"  width="200px">
+<figcaption style="text-align: left;">Style picture. </figcaption></figure></div>
+
 <div class="column" >
 <figure >
 <img  src="../assets/img/boya2.png"  width="200px" >
 <figcaption style="text-align: left">Original photo of Boya Tower, <br/> Peking University. </figcaption></figure></div>
 <div class="column">
-<figure  >
-<img  src="../assets/img/boya3.png"  width="200px">
-<figcaption style="text-align: left;">Style picture. </figcaption></figure></div>
+<figure >
+<img  src="../assets/img/boya1.png"  width="200px">
+<figcaption style="text-align: left;" >Final output. </figcaption></figure></div>
 </div>
+<p style="clear:both;"></p>
 
 For the sake of completeness, I attach a pic of Weiming Lake below as well.
 <figure  >
@@ -128,6 +148,6 @@ For the sake of completeness, I attach a pic of Weiming Lake below as well.
 </div>
 The first time I heard this story is from my instructor of *Applied Stochastic Processes*, [Prof. Dayue Chen](http://www.math.pku.edu.cn/teachers/dayue/indexE.htm).
 
-Another example I learned in this course is that "Life is a martingale." Though he meant that life is ergodic and don't feel upset when you meet troubles, I still hope that life can be a sub-martingale.
+Another example I learned in this course is that "Life is a martingale." Though he meant that life is ergodic and don't feel upset when you meet troubles, I hope that life can be a sub-martingale.
 
 [\\]: <> <div id="right_col"><blockquote > Life is a martingale.</blockquote></div>

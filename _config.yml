@@ -68,7 +68,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
-  # - jekyll-remote-theme
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

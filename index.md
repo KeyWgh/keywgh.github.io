@@ -35,7 +35,8 @@ permalink: /
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a fourth-year Ph. D. student at the School of Statistics, University of Minnesota. I have a broad interest in statistical learning methods and applications, mostly motivated by real-world problems. Recently, I am working on privacy-preserving learning methods and deep learning theory. Here is my <a href='assets/resource/CV_GW.pdf'>CV</a>.</p> 
+      Hi, I am Ganghua Wang, a fifth-year Ph. D. student at the School of Statistics, University of Minnesota. My academic journey is fueled by a deep passion for statistical learning methods and their real-world applications. Currently, I'm engrossed in machine learning safety, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
+
 
 
 
@@ -46,10 +47,7 @@ permalink: /
 
 
    <p><strong>News</strong></p>
-   <p>Our paper “Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization” was accepted by IEEE Transcation of Information Theory!</p>
-   <p>Our paper <a href='https://openreview.net/pdf?id=iIuLNEnOue'>“Understanding Backdoor Attacks through the Adaptability Hypothesis”</a> was accepted by ICML 2023!</p>
-   <p>Our paper <a href='https://openreview.net/pdf?id=i-DleYh34BM'>“Pruning deep neural networks from a sparsity perspective”</a> was accepted by ICLR 2023!</p>
-
+   <p>Our paper <a href='https://ieeexplore.ieee.org/document/10121469'>“Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization”</a> was accepted by IEEE Transcation of Information Theory!</p>
 
 
 

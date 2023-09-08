@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem 'jemoji', '~> 0.11.0'
   gem 'jekyll-algolia', '~> 1.0'
   gem 'jekyll-paginate-v2', '~>3.0.0'
-  # gem 'jekyll-gdrive'
+  gem 'jekyll-toc'
 end
 
 # Performance-booster for watching directories on Windows
