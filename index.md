@@ -47,6 +47,8 @@ permalink: /
 
 
    <p><strong>News</strong></p>
+   <p>Our paper “Unified Framework for Inference-Stage Backdoor Defenses” was accepted by NeurIPS 2023!</p>
+
    <p>Our paper <a href='https://ieeexplore.ieee.org/document/10121469'>“Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization”</a> was accepted by IEEE Transcation of Information Theory!</p>
 
 

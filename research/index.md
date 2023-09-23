@@ -120,26 +120,26 @@ We investigated a fundamental problem in model pruning: quantifying how much one
 
 \* indicates equal contributions, <sup>†</sup> indicates corresponding author(s)
 
-[1] Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) [[pdf]](https://openreview.net/pdf?id=i-DleYh34BM)
+[1] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Proc. NeurIPS (2023)
 
-[2] Gen Li, **Ganghua Wang**, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023) [[pdf]](https://ieeexplore.ieee.org/document/10121469)
+[2] Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) [[pdf]](https://openreview.net/pdf?id=i-DleYh34BM)
 
-[3] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023). [[pdf]](https://openreview.net/pdf?id=iIuLNEnOue)
+[3] Gen Li, **Ganghua Wang**, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023) [[pdf]](https://ieeexplore.ieee.org/document/10121469)
 
-[4] **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
+[4] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023). [[pdf]](https://openreview.net/pdf?id=iIuLNEnOue)
+
+[5] **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
 
 ### **Under Review**
 
-[5] **Ganghua Wang**<sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. arXiv prepreint (2023) [[pdf]](https://arxiv.org/pdf/2305.09931.pdf)
+[6] **Ganghua Wang**<sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. arXiv prepreint (2023) [[pdf]](https://arxiv.org/pdf/2305.09931.pdf)
 
-[6] Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
+[7] Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
 Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2022) [[pdf]](https://arxiv.org/pdf/2206.05604.pdf)
 
-[7] **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Preprint (2023).
+[8] **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Preprint (2023).
 
-[8] **Ganghua Wang** and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021). [[pdf]](https://arxiv.org/pdf/2107.02013.pdf)
-
-[9]  Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Preprint (2023)
+[9] **Ganghua Wang** and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021). [[pdf]](https://arxiv.org/pdf/2107.02013.pdf)
 
 ### **Manuscript**
 
