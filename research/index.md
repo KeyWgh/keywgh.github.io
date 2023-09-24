@@ -143,4 +143,4 @@ Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression
 
 ### **Manuscript**
 
-[10] **Ganghua Wang**, Jie Ding, and Yuhong Yang<sup>†</sup>. “Model Privacy: A Framework to Understand Model Stealing Attack and Defense”. Manuscript 
+[10] **Ganghua Wang**, Yuhong Yang, and Jie Ding<sup>†</sup>. “Model Privacy: A Framework to Understand Model Stealing Attack and Defense”. Manuscript 

@@ -35,7 +35,7 @@ permalink: /
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a fifth-year Ph. D. student at the School of Statistics, University of Minnesota. My academic journey is fueled by a deep passion for statistical learning methods and their real-world applications. Currently, I'm engrossed in machine learning safety, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
+      Hi, I am Ganghua Wang, a fifth-year Ph. D. student at the School of Statistics, University of Minnesota. I am fortunately advised by Prof. Jie Ding and Prof. Yuhong Yang. My academic journey is fueled by a deep passion for statistical learning methods and their real-world applications. Currently, I'm engrossed in machine learning safety, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
 
 
 
