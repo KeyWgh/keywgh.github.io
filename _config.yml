@@ -23,7 +23,7 @@ url: "http://gwang.umn.edu" # the base hostname & protocol for your site, e.g. h
 # facebook_username: keywgh
 github_username:  keywgh
 author: Ganghua Wang
-google_analytics: UA-141229469-1
+google_analytics: G-EBE9KT10WQ
 disqus:
   shortname: ghostw
 # Build settings
