@@ -120,7 +120,7 @@ We investigated a fundamental problem in model pruning: quantifying how much one
 
 \* indicates equal contributions, <sup>†</sup> indicates corresponding author(s)
 
-[1] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Proc. NeurIPS (2023)
+[1] Xun Xian, **Ganghua Wang**, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Proc. NeurIPS (2023)
 
 [2] Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) [[pdf]](https://openreview.net/pdf?id=i-DleYh34BM)
 
