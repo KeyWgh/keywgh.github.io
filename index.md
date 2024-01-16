@@ -47,7 +47,10 @@ permalink: /
 
 
    <p><strong>News</strong></p>
-   <p>Our paper “Unified Framework for Inference-Stage Backdoor Defenses” was accepted by NeurIPS 2023!</p>
+   
+   <p>Our paper <a href='https://openreview.net/pdf?id=BPHcEpGvF8'> “Demystifying Poisoning Backdoor Attacks from a Statistical Perspective”</a> was accepted by ICLR 2024!</p>
+   
+   <p>Our paper <a href='https://openreview.net/pdf?id=4zWEyYGGfI'> “Unified Framework for Inference-Stage Backdoor Defenses”</a> was accepted by NeurIPS 2023!</p>
 
    <p>Our paper <a href='https://ieeexplore.ieee.org/document/10121469'>“Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization”</a> was accepted by IEEE Transcation of Information Theory!</p>
 
