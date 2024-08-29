@@ -18,8 +18,9 @@ You can find my personal thoughts and style about teaching here: [Expectation fo
 
 <figure>
 <figcaption style="text-align: left;"> A visual comparison of normal and paranormal distributions<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. </figcaption>
-<img style="float:center;width:60%" src="https://i.stack.imgur.com/T2XrE.gif">
+    <img  src="../assets/img/paranormal.gif"  style="float:center;width:60%">
 </figure>
+
 
 
 <div class="footnotes">

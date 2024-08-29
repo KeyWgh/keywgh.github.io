@@ -120,26 +120,30 @@ We investigated a fundamental problem in model pruning: quantifying how much one
 
 \* indicates equal contributions, <sup>†</sup> indicates corresponding author(s)
 
-[1] Xun Xian, **Ganghua Wang**, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “A Unified Framework for Inference-Stage Backdoor Defenses”. Proc. NeurIPS (2023)
+- **Ganghua Wang**<sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. TMLR (2024) [[pdf]](https://openreview.net/pdf?id=ANXoddnzct)
 
-[2] Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) [[pdf]](https://openreview.net/pdf?id=i-DleYh34BM)
+- **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding<sup>†</sup>. “Demystifying Poisoning Backdoor Attacks from a Statistical Perspective”. ICLR (2024). [[pdf]](https://openreview.net/pdf?id=BPHcEpGvF8)
 
-[3] Gen Li, **Ganghua Wang**, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023) [[pdf]](https://ieeexplore.ieee.org/document/10121469)
+- Xun Xian, **Ganghua Wang**, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding<sup>†</sup>. “A Unified Framework for Inference-Stage Backdoor Defenses”. Proc. NeurIPS (2023) [[pdf]](https://openreview.net/pdf?id=4zWEyYGGfI)
 
-[4] Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023). [[pdf]](https://openreview.net/pdf?id=iIuLNEnOue)
+- Enmao Diao\*, **Ganghua Wang**\*, Jie Ding, Yuhong Yang, and Vahid Tarokh<sup>†</sup>. “Pruning deep neural networks from a sparsity perspective”. Proc. ICLR (2023) [[pdf]](https://openreview.net/pdf?id=i-DleYh34BM)
 
-[5] **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
+- Gen Li, **Ganghua Wang**, and Jie Ding<sup>†</sup>. “Provable Identifiability of ReLU Neural Networks via LASSO Regularization”. IEEE Trans. Inf. Theory (2023) [[pdf]](https://ieeexplore.ieee.org/document/10121469)
+
+- Xun Xian\*, **Ganghua Wang**\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding<sup>†</sup>. “Understanding backdoor attacks through the adaptability hypothesis”. Proc. ICML (2023). [[pdf]](https://openreview.net/pdf?id=iIuLNEnOue)
+
+- **Ganghua Wang**,  Jie Ding,  and Yuhong Yang<sup>†</sup>.  “Regression with Set-Valued  Categorical Predictors”. Statistica Sinica, (2022) [[pdf]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0332_na.pdf)
 
 ### **Under Review**
 
-[6] **Ganghua Wang**<sup>†</sup>, Ali Payani, Myungjin Lee, and Ramana Kompella. “Federated learning with group bias mitigation: beyond local fairness”. arXiv prepreint (2023) [[pdf]](https://arxiv.org/pdf/2305.09931.pdf)
+- Xun Xian, **Ganghua Wang**, Xuan Bi, Jayanth Srinivasa, Ashish Kundu, Charles Fleming, Mingyi Hong, and Jie Ding<sup>†</sup>. "On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains" Proc. ICLR (2025)
 
-[7] Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
-Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2022) [[pdf]](https://arxiv.org/pdf/2206.05604.pdf)
+- Xun Xian, **Ganghua Wang**, Xuan Bi, Jayanth Srinivasa, Ashish Kundu, Mingyi Hong, and Jie Ding<sup>†</sup>. "RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees" Proc. ICLR (2025)
 
-[8] **Ganghua Wang**\*, Xun Xian\*, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, Yuhong Yang, and Jie Ding. “A Statistical Learning Perspective of Backdoor Attacks”. Preprint (2023).
+- Wenjing Yang\*, **Ganghua Wang**\*, Jie Ding, and Yuhong
+  Yang<sup>†</sup>. “A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation”. arXiv preprint (2024) [[pdf]](https://arxiv.org/pdf/2206.05604.pdf)
 
-[9] **Ganghua Wang** and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2021). [[pdf]](https://arxiv.org/pdf/2107.02013.pdf)
+- **Ganghua Wang** and  Jie Ding<sup>†</sup>. “Subset Privacy: Draw from an Obfuscated Urn”. arXiv preprint (2024). [[pdf]](https://arxiv.org/pdf/2107.02013.pdf)
 
 ### **Manuscript**
 

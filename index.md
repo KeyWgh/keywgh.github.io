@@ -22,37 +22,37 @@ permalink: /
 </style> 
 <div id="wrap">	
   <div id="left_col">	
-    <img  class="img-circle avatar" alt="Ganghua Wang" src="assets/img/profile.jpg" width="200"> 
+    <img  class="img-circle avatar" alt="Ganghua Wang" src="assets/img/profile.jpeg" width="200"> 
     <p class='info'><br /> 
     <big><i><b>Ganghua Wang</b></i></big><br /> 
-    <i>Ph. D. Candidate</i><br /> 
-    <a href="https://cla.umn.edu/statistics" target="_blank"><i>School of Statistics</i></a><br /> 
-      <a href="https://twin-cities.umn.edu" target="_blank"><i>University of Minnesota</i></a><br />
-    492 Ford Hall<br />     
-    224 Church Street SE<br />
-    Minneapolis, MN 55455 
+    <i>Postdoc</i><br /> 
+    <a href="https://datascience.uchicago.edu/" target="_blank"><i>Data Science Institute</i></a><br /> 
+     <i>University of Chicago</i><br />
+   John Crerar Library Building<br />     
+5730 South Ellis Avenue, Suite 150<br />
+    Chicago IL, 60637 
     </p>
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a fifth-year Ph. D. student at the School of Statistics, University of Minnesota. I am fortunately advised by Prof. Jie Ding and Prof. Yuhong Yang. My academic journey is fueled by a deep passion for statistical learning methods and their real-world applications. Currently, I'm engrossed in machine learning safety, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
+      Hi, I am Ganghua Wang, a postdoctoral researcher at the Data Science Institute, University of Chicago. I obtain my stat Ph.D. degree in 2024 from University of Minnesota, fortunately advised by Prof. Jie Ding and Prof. Yuhong Yang. Currently, I'm engrossed in trustworthy AI, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
+
+
 
 
 
 
    <p><strong>Education</strong></p>
-   <p>Ph.D., School of Statistics, University of Minnesota, Aug. 2019 - present </p>
+   <p>Ph.D., School of Statistics, University of Minnesota, Aug. 2019 - Aug. 2024 </p>
    <p>B.S., Statistics, Peking University, Sept. 2015 - July 2019 </p>
 
 
 
    <p><strong>News</strong></p>
-   
-   <p>Our paper <a href='https://openreview.net/pdf?id=BPHcEpGvF8'> “Demystifying Poisoning Backdoor Attacks from a Statistical Perspective”</a> was accepted by ICLR 2024!</p>
-   
-   <p>Our paper <a href='https://openreview.net/pdf?id=4zWEyYGGfI'> “Unified Framework for Inference-Stage Backdoor Defenses”</a> was accepted by NeurIPS 2023!</p>
 
-   <p>Our paper <a href='https://ieeexplore.ieee.org/document/10121469'>“Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization”</a> was accepted by IEEE Transcation of Information Theory!</p>
+Our paper <a href='https://openreview.net/pdf?id=ANXoddnzct'>"Mitigating Group Bias in Federated Learning: Beyond Local Fairness"</a> was aceepted by TMLR!
+
+   <p>Our paper <a href='https://openreview.net/pdf?id=BPHcEpGvF8'> “Demystifying Poisoning Backdoor Attacks from a Statistical Perspective”</a> was accepted by ICLR 2024!</p>
 
 
 
