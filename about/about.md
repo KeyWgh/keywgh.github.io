@@ -43,15 +43,16 @@ figcaption { display: table-caption; caption-side: bottom ; }
 [comment]: <> FF0234(red) FF7902(orange) 1F70CB(blue)
 
 
-This is a personal website of Ganghua Wang, which is created by [Jekyll](https://jekyllrb.com/).
+This is a personal website of Ganghua Wang, created using [Jekyll](https://jekyllrb.com/).
 
 ## Gallery
 
 ### *2024*{: .h1s}
 <figure>
 <img  src="../assets/img/defense.jpeg"  width="500px">
-<figcaption style="text-align: left;"> After my defense. From left to right are Prof. <a href="https://jding.org/">Jie Ding</a>, Yingyu Shen, Ganghua Wang, and Prof. <a href="https://cla.umn.edu/about/directory/profile/yangx374">Yuhong Yang</a></figcaption> 
+<figcaption style="text-align: left;"> After my defense. From left to right are Prof. <a href="https://jding.org/">Jie Ding</a>, Yingyu Shen, Ganghua Wang, and Prof. <a href="https://cla.umn.edu/about/directory/profile/yangx374">Yuhong Yang</a>. </figcaption> 
 </figure>
+
 
 
 ### *2023*{: .h1s}
