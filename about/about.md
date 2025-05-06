@@ -47,7 +47,15 @@ This is a personal website of Ganghua Wang, created using [Jekyll](https://jekyl
 
 ## Gallery
 
+### *2025*{: .h1s}
+
+<figure>
+<img  src="../assets/img/luca.jpg"  width="500px">
+<figcaption style="text-align: left;"> Hello World, Luca! Welcomed our first kid. </figcaption> 
+</figure>
+
 ### *2024*{: .h1s}
+
 <figure>
 <img  src="../assets/img/defense.jpeg"  width="500px">
 <figcaption style="text-align: left;"> After my defense. From left to right are Prof. <a href="https://jding.org/">Jie Ding</a>, Yingyu Shen, Ganghua Wang, and Prof. <a href="https://cla.umn.edu/about/directory/profile/yangx374">Yuhong Yang</a>. </figcaption> 

@@ -50,9 +50,11 @@ permalink: /
 
 
    <p><strong>News</strong></p>
-   <p>Our paper <a href='https://openreview.net/pdf?id=ogaeChzbKu'> “RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees”</a> was accepted by NeurIPS 2024!</p>
-   
-Our paper <a href='https://openreview.net/pdf?id=ANXoddnzct'>"Mitigating Group Bias in Federated Learning: Beyond Local Fairness"</a> was aceepted by TMLR!
+<p> Our paper “On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains.” was accepted by ICML 2025!</p>
+
+   <p>Our paper <a href='https://openreview.net/pdf?id=ogaeChzbKu'> “RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees.”</a> was accepted by NeurIPS 2024!</p>
+
+
 
 
 
