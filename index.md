@@ -25,17 +25,17 @@ permalink: /
     <img  class="img-circle avatar" alt="Ganghua Wang" src="assets/img/profile.jpeg" width="200"> 
     <p class='info'><br /> 
     <big><i><b>Ganghua Wang</b></i></big><br /> 
-    <i>Postdoc</i><br /> 
+    <i>Faraco Postdoctoral Fellow</i><br /> 
     <a href="https://datascience.uchicago.edu/" target="_blank"><i>Data Science Institute</i></a><br /> 
-     <i>University of Chicago</i><br />
-   John Crerar Library Building<br />     
-5730 South Ellis Avenue, Suite 299<br />
-    Chicago IL, 60637 
+     <i>University of Chicago</i><br />    
+5460 S University Avenue, Room 202<br />
+    Chicago IL, 60615 
     </p>
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a postdoctoral researcher at the Data Science Institute, University of Chicago. I obtain my stat Ph.D. degree in 2024 from University of Minnesota, fortunately advised by Prof. Jie Ding and Prof. Yuhong Yang. Currently, I'm engrossed in trustworthy AI, delving into both the theoretical foundations and the development of practical algorithms. Feel free to explore my website to learn more about my research. </p> 
+      Hi, I am Ganghua Wang, a Faraco Postdoctoral Fellow at the Data Science Institute, University of Chicago, fortunately mentored by Prof. Haifeng Xu and Prof. Bo Li. I received my Ph.D. in Statistics from University of Minnesota in 2024, where I was fortunate to be advised by Prof. Jie Ding and Prof. Yuhong Yang. My current research focuses on trustworthy AI, exploring both its theoretical foundations and the development of practical algorithms. Feel free to visit my website to learn more about my research. </p> 
+
 
 
 
@@ -50,9 +50,12 @@ permalink: /
 
 
    <p><strong>News</strong></p>
+
+   <p>I am honored to be selected as the DSI Faraco Postdoctoral Fellow for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
+
 <p> Our paper “On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains.” was accepted by ICML 2025!</p>
 
-   <p>Our paper <a href='https://openreview.net/pdf?id=ogaeChzbKu'> “RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees.”</a> was accepted by NeurIPS 2024!</p>
+
 
 
 
