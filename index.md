@@ -51,7 +51,7 @@ permalink: /
 
    <p><strong>News</strong></p>
 
-   <p>I am honored to be selected as the DSI Faraco Postdoctoral Fellow for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
+   <p>I am honored to be <a href="https://datascience.uchicago.edu/news/two-postdoctoral-scholars-awarded-fellowships/">selected as the DSI Faraco Postdoctoral Fellow</a> for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
 
 <p> Our paper “On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains.” was accepted by ICML 2025!</p>
 
