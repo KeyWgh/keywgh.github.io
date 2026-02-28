@@ -35,22 +35,13 @@ permalink: /
   <div id="right_col">	
     <p class="lead">
       Hi, I am Ganghua Wang, a Faraco Postdoctoral Fellow at the Data Science Institute, University of Chicago, fortunately mentored by Prof. Haifeng Xu and Prof. Bo Li. I received my Ph.D. in Statistics from University of Minnesota in 2024, where I was fortunate to be advised by Prof. Jie Ding and Prof. Yuhong Yang. My current research focuses on trustworthy AI, exploring both its theoretical foundations and the development of practical algorithms. Feel free to visit my website to learn more about my research. </p> 
-
-
-
-
-
-
-
-
-   <p><strong>Education</strong></p>
-   <p>Ph.D., School of Statistics, University of Minnesota, Aug. 2019 - Aug. 2024 </p>
-   <p>B.S., Statistics, Peking University, Sept. 2015 - July 2019 </p>
+      <p class="lead">
+      I will join the Department of Mathematics at the University of Arizona as a tenure-track Assistant Professor starting in August 2026. </p> 
 
 
 
    <p><strong>News</strong></p>
-   
+
    <p> Our paper “Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses.” was accepted by the Journal of the Royal Statistical Society, Series B!</p>
 
    <p>I am honored to be <a href="https://datascience.uchicago.edu/news/two-postdoctoral-scholars-awarded-fellowships/">selected as the DSI Faraco Postdoctoral Fellow</a> for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
