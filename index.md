@@ -36,7 +36,7 @@ permalink: /
     <p class="lead">
       Hi, I am Ganghua Wang, a Faraco Postdoctoral Fellow at the Data Science Institute, University of Chicago, fortunately mentored by Prof. Haifeng Xu and Prof. Bo Li. I received my Ph.D. in Statistics from University of Minnesota in 2024, where I was fortunate to be advised by Prof. Jie Ding and Prof. Yuhong Yang. My current research focuses on trustworthy AI, exploring both its theoretical foundations and the development of practical algorithms. Feel free to visit my website to learn more about my research. </p> 
       <p class="lead">
-      I will join the Department of Mathematics at the University of Arizona as a tenure-track Assistant Professor starting in August 2026. </p> 
+      I will join the Department of Mathematics at the University of Arizona as a tenure-track Assistant Professor starting in August 2026. I am always looking for self-motivated graduate students to join my group. If you are interested in working with me, please feel free to contact me and include your CV. </p> 
 
 
 
