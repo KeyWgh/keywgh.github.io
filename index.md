@@ -42,7 +42,7 @@ permalink: /
 
    <p><strong>News</strong></p>
 
-   <p> Our paper “Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses.” was accepted by the Journal of the Royal Statistical Society, Series B!</p>
+   <p> Our paper “Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses.” was accepted by the Journal of the Royal Statistical Society, Series B! <a href="https://doi.org/10.1093/jrsssb/qkag059" target="_blank">[Click here for paper.]</a> </p> 
 
    <p>I am honored to be <a href="https://datascience.uchicago.edu/news/two-postdoctoral-scholars-awarded-fellowships/">selected as the DSI Faraco Postdoctoral Fellow</a> for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
 
