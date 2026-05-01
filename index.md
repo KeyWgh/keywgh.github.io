@@ -42,9 +42,15 @@ permalink: /
 
    <p><strong>News</strong></p>
 
-   <p> Our paper “Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses.” was accepted by the Journal of the Royal Statistical Society, Series B! <a href="https://doi.org/10.1093/jrsssb/qkag059" target="_blank">[Click here for paper.]</a> </p> 
+   <p>[2026/05] I am co-organizing a session at INFORMS 2026 with <a href="https://www.yaofan29597.com/" target="_blank"> Dr. Fan Yao</a> on LLMs and Social Media Analytics, look forward to meeting you at SF! </p> 
 
-   <p>I am honored to be <a href="https://datascience.uchicago.edu/news/two-postdoctoral-scholars-awarded-fellowships/">selected as the DSI Faraco Postdoctoral Fellow</a> for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
+   <p>[2026/05] I will be presenting at ICSA 2026 and JSM 2026 -- happy to connect and chat! </p> 
+
+   <p>[2026/04] Our paper “Probabilistic Bisection Algorithm Provably Achieves Exponential Convergence” was accepted by ICML </p> 
+
+   <p>[2026/02] Our paper “Model Privacy: A Unified Framework for Understanding Model Stealing Attacks and Defenses.” was accepted by the Journal of the Royal Statistical Society, Series B! <a href="https://doi.org/10.1093/jrsssb/qkag059" target="_blank">[Click here for paper.]</a> </p> 
+
+   <p>[2025/10] I am honored to be <a href="https://datascience.uchicago.edu/news/two-postdoctoral-scholars-awarded-fellowships/">selected as the DSI Faraco Postdoctoral Fellow</a> for the 2025–2026 academic year, and I am grateful for this recognition and support.</p>
 
 
 
