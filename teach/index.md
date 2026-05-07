@@ -4,6 +4,19 @@ title: Teaching
 permalink: /teach/
 ---
 
+# Current Course
+
+## Instructor
+
+| Course Number            | Course Title                     | Term/Year   |
+| ------------------------ | ------------------------------------ | ----------- |
+| [MATH567A](MATH567A) | Theoretical Statistics I | Fall 2026 |
+
+
+
+
+# Previous Course
+
 ## Teaching Assistant
 
 | Course Number            | Course Title                     | Term/Year   |
@@ -12,9 +25,9 @@ permalink: /teach/
 | [STAT3021](STAT3021_LAB)| Introduction to Probability and Statistics | Spring 2020 |
 | [STAT3011](STAT3011_LAB) | Introduction to Statistical Analysis | Fall 2019   |
 
-You can find my personal thoughts and style about teaching here: [Expectation for lab]({%post_url 2020-8-8-Expectation-for-lab%}).
 
 
+# Misc
 
 <figure>
 <figcaption style="text-align: left;"> A visual comparison of normal and paranormal distributions<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. </figcaption>
