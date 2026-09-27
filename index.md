@@ -25,18 +25,19 @@ permalink: /
     <img  class="img-circle avatar" alt="Ganghua Wang" src="assets/img/profile.jpeg" width="200"> 
     <p class='info'><br /> 
     <big><i><b>Ganghua Wang</b></i></big><br /> 
-    <i>Faraco Postdoctoral Fellow</i><br /> 
-    <a href="https://datascience.uchicago.edu/" target="_blank"><i>Data Science Institute</i></a><br /> 
-     <i>University of Chicago</i><br />    
-5460 S University Avenue, Room 202<br />
-    Chicago IL, 60615 
+    <i>Assistant Professor</i><br /> 
+    <a href="https://https://www.math.arizona.edu/" target="_blank"><i>Department of Mathematics</i></a><br /> 
+     <i>University of Arizona</i><br />    
+Room S363, 1064 E Lowell St<br />
+    Tucson, AZ 85719
     </p>
   </div>	
   <div id="right_col">	
     <p class="lead">
-      Hi, I am Ganghua Wang, a Faraco Postdoctoral Fellow at the Data Science Institute, University of Chicago, fortunately mentored by Prof. Haifeng Xu and Prof. Bo Li. I received my Ph.D. in Statistics from University of Minnesota in 2024, where I was fortunate to be advised by Prof. Jie Ding and Prof. Yuhong Yang. My current research focuses on trustworthy AI, exploring both its theoretical foundations and the development of practical algorithms. Feel free to visit my website to learn more about my research. </p> 
-      <p class="lead">
-          <i><b>I will join the Department of Mathematics at the University of Arizona as a tenure-track Assistant Professor starting in August 2026.</b></i> I am always looking for self-motivated graduate students to join my group. If you are interested in working with me, please feel free to contact me and include your CV. </p> 
+        Hi, I am Ganghua Wang, a Tenure-Track Assistant Professor at the Department of Mathematics, University of Arizona. I am also a member of the <a href="https://stat.arizona.edu/">Statistics & Data Science GIDP</a>. Before that, I was Faraco Postdoctoral Fellow at DSI, UChicago, fortunately mentored by Prof. Haifeng Xu and Prof. Bo Li. I received my Ph.D. in Statistics from University of Minnesota in 2024, where I was fortunate to be advised by Prof. Jie Ding and Prof. Yuhong Yang. </p> 
+
+     <p class="lead">My current research focuses on trustworthy AI, exploring both its theoretical foundations and the development of practical algorithms. I am always looking for self-motivated graduate students to join my group. If you are interested in working with me, please feel free to contact me and include your CV. </p> 
+
 
 
 
